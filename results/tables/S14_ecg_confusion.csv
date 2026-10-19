@@ -1,0 +1,376 @@
+scenario,model,true,pred,count
+global,LR,N,N,27346
+global,LR,N,S,3475
+global,LR,N,V,897
+global,LR,N,F,5099
+global,LR,N,Q,95
+global,LR,S,N,47
+global,LR,S,S,1382
+global,LR,S,V,163
+global,LR,S,F,13
+global,LR,S,Q,3
+global,LR,V,N,41
+global,LR,V,S,60
+global,LR,V,V,2048
+global,LR,V,F,534
+global,LR,V,Q,3
+global,LR,F,N,124
+global,LR,F,S,0
+global,LR,F,V,72
+global,LR,F,F,90
+global,LR,F,Q,2
+global,LR,Q,N,1
+global,LR,Q,S,0
+global,LR,Q,V,2
+global,LR,Q,F,4
+global,LR,Q,Q,0
+global,RF,N,N,36667
+global,RF,N,S,76
+global,RF,N,V,161
+global,RF,N,F,8
+global,RF,N,Q,0
+global,RF,S,N,1461
+global,RF,S,S,107
+global,RF,S,V,40
+global,RF,S,F,0
+global,RF,S,Q,0
+global,RF,V,N,212
+global,RF,V,S,14
+global,RF,V,V,2460
+global,RF,V,F,0
+global,RF,V,Q,0
+global,RF,F,N,237
+global,RF,F,S,0
+global,RF,F,V,51
+global,RF,F,F,0
+global,RF,F,Q,0
+global,RF,Q,N,7
+global,RF,Q,S,0
+global,RF,Q,V,0
+global,RF,Q,F,0
+global,RF,Q,Q,0
+global,HGB,N,N,33714
+global,HGB,N,S,1016
+global,HGB,N,V,776
+global,HGB,N,F,1406
+global,HGB,N,Q,0
+global,HGB,S,N,1040
+global,HGB,S,S,296
+global,HGB,S,V,269
+global,HGB,S,F,2
+global,HGB,S,Q,1
+global,HGB,V,N,38
+global,HGB,V,S,10
+global,HGB,V,V,2605
+global,HGB,V,F,33
+global,HGB,V,Q,0
+global,HGB,F,N,227
+global,HGB,F,S,1
+global,HGB,F,V,35
+global,HGB,F,F,25
+global,HGB,F,Q,0
+global,HGB,Q,N,3
+global,HGB,Q,S,1
+global,HGB,Q,V,3
+global,HGB,Q,F,0
+global,HGB,Q,Q,0
+global,MiniRocket-LR,N,N,21825
+global,MiniRocket-LR,N,S,6083
+global,MiniRocket-LR,N,V,2359
+global,MiniRocket-LR,N,F,6627
+global,MiniRocket-LR,N,Q,18
+global,MiniRocket-LR,S,N,1083
+global,MiniRocket-LR,S,S,405
+global,MiniRocket-LR,S,V,73
+global,MiniRocket-LR,S,F,46
+global,MiniRocket-LR,S,Q,1
+global,MiniRocket-LR,V,N,332
+global,MiniRocket-LR,V,S,86
+global,MiniRocket-LR,V,V,2156
+global,MiniRocket-LR,V,F,110
+global,MiniRocket-LR,V,Q,2
+global,MiniRocket-LR,F,N,22
+global,MiniRocket-LR,F,S,6
+global,MiniRocket-LR,F,V,245
+global,MiniRocket-LR,F,F,15
+global,MiniRocket-LR,F,Q,0
+global,MiniRocket-LR,Q,N,0
+global,MiniRocket-LR,Q,S,0
+global,MiniRocket-LR,Q,V,6
+global,MiniRocket-LR,Q,F,0
+global,MiniRocket-LR,Q,Q,1
+global,MLP,N,N,25535
+global,MLP,N,S,1927
+global,MLP,N,V,3885
+global,MLP,N,F,5507
+global,MLP,N,Q,58
+global,MLP,S,N,400
+global,MLP,S,S,935
+global,MLP,S,V,215
+global,MLP,S,F,54
+global,MLP,S,Q,4
+global,MLP,V,N,38
+global,MLP,V,S,30
+global,MLP,V,V,2539
+global,MLP,V,F,78
+global,MLP,V,Q,1
+global,MLP,F,N,11
+global,MLP,F,S,0
+global,MLP,F,V,147
+global,MLP,F,F,128
+global,MLP,F,Q,2
+global,MLP,Q,N,1
+global,MLP,Q,S,0
+global,MLP,Q,V,5
+global,MLP,Q,F,1
+global,MLP,Q,Q,0
+global,CARES (dual-view),N,N,33109
+global,CARES (dual-view),N,S,1077
+global,CARES (dual-view),N,V,854
+global,CARES (dual-view),N,F,1870
+global,CARES (dual-view),N,Q,2
+global,CARES (dual-view),S,N,1094
+global,CARES (dual-view),S,S,286
+global,CARES (dual-view),S,V,213
+global,CARES (dual-view),S,F,14
+global,CARES (dual-view),S,Q,1
+global,CARES (dual-view),V,N,57
+global,CARES (dual-view),V,S,15
+global,CARES (dual-view),V,V,2611
+global,CARES (dual-view),V,F,3
+global,CARES (dual-view),V,Q,0
+global,CARES (dual-view),F,N,99
+global,CARES (dual-view),F,S,0
+global,CARES (dual-view),F,V,178
+global,CARES (dual-view),F,F,11
+global,CARES (dual-view),F,Q,0
+global,CARES (dual-view),Q,N,3
+global,CARES (dual-view),Q,S,0
+global,CARES (dual-view),Q,V,4
+global,CARES (dual-view),Q,F,0
+global,CARES (dual-view),Q,Q,0
+federated,FedAvg MLP,N,N,32053
+federated,FedAvg MLP,N,S,2262
+federated,FedAvg MLP,N,V,2394
+federated,FedAvg MLP,N,F,203
+federated,FedAvg MLP,N,Q,0
+federated,FedAvg MLP,S,N,911
+federated,FedAvg MLP,S,S,406
+federated,FedAvg MLP,S,V,287
+federated,FedAvg MLP,S,F,4
+federated,FedAvg MLP,S,Q,0
+federated,FedAvg MLP,V,N,63
+federated,FedAvg MLP,V,S,37
+federated,FedAvg MLP,V,V,2586
+federated,FedAvg MLP,V,F,0
+federated,FedAvg MLP,V,Q,0
+federated,FedAvg MLP,F,N,237
+federated,FedAvg MLP,F,S,0
+federated,FedAvg MLP,F,V,50
+federated,FedAvg MLP,F,F,1
+federated,FedAvg MLP,F,Q,0
+federated,FedAvg MLP,Q,N,4
+federated,FedAvg MLP,Q,S,1
+federated,FedAvg MLP,Q,V,2
+federated,FedAvg MLP,Q,F,0
+federated,FedAvg MLP,Q,Q,0
+federated,FedProx MLP,N,N,31699
+federated,FedProx MLP,N,S,2252
+federated,FedProx MLP,N,V,2760
+federated,FedProx MLP,N,F,201
+federated,FedProx MLP,N,Q,0
+federated,FedProx MLP,S,N,885
+federated,FedProx MLP,S,S,456
+federated,FedProx MLP,S,V,263
+federated,FedProx MLP,S,F,4
+federated,FedProx MLP,S,Q,0
+federated,FedProx MLP,V,N,49
+federated,FedProx MLP,V,S,38
+federated,FedProx MLP,V,V,2598
+federated,FedProx MLP,V,F,1
+federated,FedProx MLP,V,Q,0
+federated,FedProx MLP,F,N,225
+federated,FedProx MLP,F,S,0
+federated,FedProx MLP,F,V,62
+federated,FedProx MLP,F,F,1
+federated,FedProx MLP,F,Q,0
+federated,FedProx MLP,Q,N,4
+federated,FedProx MLP,Q,S,1
+federated,FedProx MLP,Q,V,2
+federated,FedProx MLP,Q,F,0
+federated,FedProx MLP,Q,Q,0
+patient-adaptive,LR,N,N,31233
+patient-adaptive,LR,N,S,2719
+patient-adaptive,LR,N,V,157
+patient-adaptive,LR,N,F,2731
+patient-adaptive,LR,N,Q,72
+patient-adaptive,LR,S,N,40
+patient-adaptive,LR,S,S,1521
+patient-adaptive,LR,S,V,35
+patient-adaptive,LR,S,F,9
+patient-adaptive,LR,S,Q,3
+patient-adaptive,LR,V,N,32
+patient-adaptive,LR,V,S,40
+patient-adaptive,LR,V,V,2511
+patient-adaptive,LR,V,F,102
+patient-adaptive,LR,V,Q,1
+patient-adaptive,LR,F,N,17
+patient-adaptive,LR,F,S,2
+patient-adaptive,LR,F,V,17
+patient-adaptive,LR,F,F,252
+patient-adaptive,LR,F,Q,0
+patient-adaptive,LR,Q,N,1
+patient-adaptive,LR,Q,S,0
+patient-adaptive,LR,Q,V,2
+patient-adaptive,LR,Q,F,4
+patient-adaptive,LR,Q,Q,0
+patient-adaptive,HGB,N,N,36281
+patient-adaptive,HGB,N,S,390
+patient-adaptive,HGB,N,V,78
+patient-adaptive,HGB,N,F,163
+patient-adaptive,HGB,N,Q,0
+patient-adaptive,HGB,S,N,131
+patient-adaptive,HGB,S,S,1441
+patient-adaptive,HGB,S,V,36
+patient-adaptive,HGB,S,F,0
+patient-adaptive,HGB,S,Q,0
+patient-adaptive,HGB,V,N,26
+patient-adaptive,HGB,V,S,7
+patient-adaptive,HGB,V,V,2619
+patient-adaptive,HGB,V,F,34
+patient-adaptive,HGB,V,Q,0
+patient-adaptive,HGB,F,N,39
+patient-adaptive,HGB,F,S,0
+patient-adaptive,HGB,F,V,20
+patient-adaptive,HGB,F,F,229
+patient-adaptive,HGB,F,Q,0
+patient-adaptive,HGB,Q,N,3
+patient-adaptive,HGB,Q,S,1
+patient-adaptive,HGB,Q,V,3
+patient-adaptive,HGB,Q,F,0
+patient-adaptive,HGB,Q,Q,0
+patient-adaptive,MiniRocket-LR,N,N,33185
+patient-adaptive,MiniRocket-LR,N,S,1576
+patient-adaptive,MiniRocket-LR,N,V,231
+patient-adaptive,MiniRocket-LR,N,F,1903
+patient-adaptive,MiniRocket-LR,N,Q,17
+patient-adaptive,MiniRocket-LR,S,N,187
+patient-adaptive,MiniRocket-LR,S,S,1372
+patient-adaptive,MiniRocket-LR,S,V,20
+patient-adaptive,MiniRocket-LR,S,F,28
+patient-adaptive,MiniRocket-LR,S,Q,1
+patient-adaptive,MiniRocket-LR,V,N,102
+patient-adaptive,MiniRocket-LR,V,S,37
+patient-adaptive,MiniRocket-LR,V,V,2475
+patient-adaptive,MiniRocket-LR,V,F,72
+patient-adaptive,MiniRocket-LR,V,Q,0
+patient-adaptive,MiniRocket-LR,F,N,12
+patient-adaptive,MiniRocket-LR,F,S,0
+patient-adaptive,MiniRocket-LR,F,V,19
+patient-adaptive,MiniRocket-LR,F,F,257
+patient-adaptive,MiniRocket-LR,F,Q,0
+patient-adaptive,MiniRocket-LR,Q,N,1
+patient-adaptive,MiniRocket-LR,Q,S,0
+patient-adaptive,MiniRocket-LR,Q,V,5
+patient-adaptive,MiniRocket-LR,Q,F,0
+patient-adaptive,MiniRocket-LR,Q,Q,1
+patient-adaptive,CARES (dual-view),N,N,36167
+patient-adaptive,CARES (dual-view),N,S,316
+patient-adaptive,CARES (dual-view),N,V,104
+patient-adaptive,CARES (dual-view),N,F,322
+patient-adaptive,CARES (dual-view),N,Q,3
+patient-adaptive,CARES (dual-view),S,N,152
+patient-adaptive,CARES (dual-view),S,S,1426
+patient-adaptive,CARES (dual-view),S,V,22
+patient-adaptive,CARES (dual-view),S,F,8
+patient-adaptive,CARES (dual-view),S,Q,0
+patient-adaptive,CARES (dual-view),V,N,26
+patient-adaptive,CARES (dual-view),V,S,5
+patient-adaptive,CARES (dual-view),V,V,2615
+patient-adaptive,CARES (dual-view),V,F,40
+patient-adaptive,CARES (dual-view),V,Q,0
+patient-adaptive,CARES (dual-view),F,N,26
+patient-adaptive,CARES (dual-view),F,S,0
+patient-adaptive,CARES (dual-view),F,V,22
+patient-adaptive,CARES (dual-view),F,F,240
+patient-adaptive,CARES (dual-view),F,Q,0
+patient-adaptive,CARES (dual-view),Q,N,3
+patient-adaptive,CARES (dual-view),Q,S,0
+patient-adaptive,CARES (dual-view),Q,V,4
+patient-adaptive,CARES (dual-view),Q,F,0
+patient-adaptive,CARES (dual-view),Q,Q,0
+patient-adaptive,MLP,N,N,34946
+patient-adaptive,MLP,N,S,874
+patient-adaptive,MLP,N,V,257
+patient-adaptive,MLP,N,F,833
+patient-adaptive,MLP,N,Q,2
+patient-adaptive,MLP,S,N,134
+patient-adaptive,MLP,S,S,1447
+patient-adaptive,MLP,S,V,15
+patient-adaptive,MLP,S,F,12
+patient-adaptive,MLP,S,Q,0
+patient-adaptive,MLP,V,N,47
+patient-adaptive,MLP,V,S,18
+patient-adaptive,MLP,V,V,2573
+patient-adaptive,MLP,V,F,48
+patient-adaptive,MLP,V,Q,0
+patient-adaptive,MLP,F,N,60
+patient-adaptive,MLP,F,S,0
+patient-adaptive,MLP,F,V,36
+patient-adaptive,MLP,F,F,192
+patient-adaptive,MLP,F,Q,0
+patient-adaptive,MLP,Q,N,2
+patient-adaptive,MLP,Q,S,0
+patient-adaptive,MLP,Q,V,5
+patient-adaptive,MLP,Q,F,0
+patient-adaptive,MLP,Q,Q,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,N,N,35739
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,N,S,644
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,N,V,70
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,N,F,459
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,N,Q,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,S,N,158
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,S,S,1437
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,S,V,13
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,S,F,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,S,Q,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,V,N,41
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,V,S,37
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,V,V,2570
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,V,F,38
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,V,Q,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,F,N,109
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,F,S,4
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,F,V,30
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,F,F,145
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,F,Q,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,Q,N,5
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,Q,S,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,Q,V,2
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,Q,F,0
+federated + fine-tuning,FedAvg MLP + on-device fine-tuning,Q,Q,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,N,N,35839
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,N,S,561
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,N,V,76
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,N,F,436
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,N,Q,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,S,N,155
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,S,S,1443
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,S,V,10
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,S,F,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,S,Q,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,V,N,38
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,V,S,31
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,V,V,2577
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,V,F,40
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,V,Q,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,F,N,113
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,F,S,1
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,F,V,30
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,F,F,144
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,F,Q,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,Q,N,5
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,Q,S,1
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,Q,V,1
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,Q,F,0
+federated + fine-tuning,FedProx MLP + on-device fine-tuning,Q,Q,0

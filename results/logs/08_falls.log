@@ -1,0 +1,8 @@
+falls windows 3300 subjects 17 features 368
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+/usr/local/lib/python3.13/dist-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 3 leaked file objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_742_f54ab4cc3f3b472e8a1946b10283c184_387a6af5ce4842c9ba1ec121e5aaf4b8/742-140034508896112-debceffbd0d745219fe44e55d49a400b.pkl': 4, '/dev/shm/joblib_memmapping_folder_742_f54ab4cc3f3b472e8a1946b10283c184_387a6af5ce4842c9ba1ec121e5aaf4b8/742-140034508896112-465bb4567a464917a78f16cb9870e68a.pkl': 4, '/dev/shm/joblib_memmapping_folder_742_f54ab4cc3f3b472e8a1946b10283c184_387a6af5ce4842c9ba1ec121e5aaf4b8/742-140034508896112-c806b136c2d348968ef725b3ac55b9af.pkl': 4}
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 8 leaked semlock objects to clean up at shutdown: {'/loky-742-kmt63klw': 1, '/loky-742-90lr7xj9': 1, '/loky-742-fahivnr5': 1, '/loky-742-9v4b0j9a': 1, '/loky-742-5orie7q2': 1, '/loky-742-x4tul9bu': 1, '/loky-742-pe32v2n3': 1, '/loky-742-xb2x552f': 1}
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_742_f54ab4cc3f3b472e8a1946b10283c184_50d7936303964b099ee2fcce57725515': 1, '/dev/shm/joblib_memmapping_folder_742_f54ab4cc3f3b472e8a1946b10283c184_387a6af5ce4842c9ba1ec121e5aaf4b8': 1}
+  warnings.warn(

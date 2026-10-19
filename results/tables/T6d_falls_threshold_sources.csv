@@ -1,0 +1,5 @@
+budget_per_h,calibration_source,threshold,n_cal,fall_sensitivity_on_volunteers,falls
+0.0,young volunteers (17),0.996,17,0.9210958904109589,1825
+0.0,older adults (18),0.64,18,0.9912328767123287,1825
+2.0,young volunteers (17),0.995,17,0.9287671232876712,1825
+2.0,older adults (18),0.5,18,0.9956164383561644,1825

@@ -1,4 +1,16 @@
+"""
+STEP 04 - Fall detection service (UCI "Simulated Falls and Daily Living Activities", Erciyes/Bilkent).
 
+17 volunteers performed 20 fall types and 16 ADLs (about 5 repetitions each) wearing six Xsens MTw units
+(head, chest, waist, right wrist, right thigh, right ankle; 25 Hz; accelerometer m/s^2, gyroscope rad/s).
+
+Two stages:
+  (a) RAW -> DATA_PATH/falls_selected.npz  (only accelerometer + gyroscope of the six units, no personal data).
+      Needs the 1.2 GB UCI archive (zip that contains Tests.rar) and the system libarchive (Linux/macOS),
+      or skip it: falls_selected.npz is shipped in data/raw of this package.
+  (b) falls_selected.npz -> PROCESSED_PATH/falls_trials.npz (one record per trial, ragged arrays) and
+      PROCESSED_PATH/falls_windows.npz (4-s windows centred on the impact peak: trial-level classification).
+"""
 import io
 import os
 import re

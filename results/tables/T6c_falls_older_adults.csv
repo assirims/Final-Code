@@ -1,0 +1,9 @@
+calibration,population,budget_per_h,people,covered,coverage,people_with_fa,total_fa,hours,pooled_fa_per_h,median_fa_per_h,max_fa_per_h,median_threshold,people_margin_raised,fall_sensitivity
+"older adults, leave-one-out (17)",older adults (HAR70+),0.0,18.0,17.0,0.9444444444444444,1.0,1.0,12.552444444444445,0.07966575788691002,0.0,1.3795217657878602,0.64,0.0,
+"older adults, leave-one-out (17)",older adults (HAR70+),2.0,18.0,18.0,1.0,1.0,1.0,12.552444444444445,0.07966575788691002,0.0,1.3795217657878602,0.5,0.0,
+young volunteers (17),older adults (HAR70+),0.0,18.0,18.0,1.0,0.0,0.0,12.552444444444445,0.0,0.0,0.0,0.996,0.0,
+young volunteers (17),older adults (HAR70+),2.0,18.0,18.0,1.0,0.0,0.0,12.552444444444445,0.0,0.0,0.0,0.995,0.0,
+young volunteers (17) + personal ADL margin,older adults (HAR70+),0.0,18.0,18.0,1.0,0.0,0.0,11.052444444444445,0.0,0.0,0.0,0.996,0.0,
+young volunteers (17) + personal ADL margin,older adults (HAR70+),2.0,18.0,18.0,1.0,0.0,0.0,11.052444444444445,0.0,0.0,0.0,0.995,0.0,
+"young volunteers, leave-one-out (16)",young volunteers (falls dataset),0.0,17.0,16.0,0.9411764705882353,1.0,1.0,8.147666666666666,0.12273452522194495,0.0,1.756440281030445,0.996,0.0,0.9210958904109589
+"young volunteers, leave-one-out (16)",young volunteers (falls dataset),2.0,17.0,16.0,0.9411764705882353,2.0,3.0,8.147666666666666,0.36820357566583484,0.0,4.614201486798256,0.995,0.0,0.9293150684931507

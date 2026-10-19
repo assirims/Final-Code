@@ -1,4 +1,14 @@
+"""
+STEP 11 - Cognitive-health surveillance from ambient smart-home sensors (CASAS cognitive assessment).
 
+Task A: people living with cognitive impairment (dementia or MCI) vs. cognitively healthy adults (45+ years).
+Task B (age-matched check): impairment vs. healthy adults aged 60+ only, to show that the signal is not age.
+Tasks C/D: dementia vs. healthy 60+, and MCI vs. healthy 60+ (stage-specific detectability).
+Task E: automated task-quality assessment: cross-validated prediction of the experimenters' error score of the
+        eight uncued everyday tasks (higher = more errors) from sensor data only.
+Protocol: repeated stratified 5-fold cross-validation (10 repeats), fixed hyper-parameters (no tuning on test folds);
+permutation importance aggregated per task explains which activities carry the signal.
+"""
 import os
 
 for _v in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):

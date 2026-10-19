@@ -1,4 +1,13 @@
+"""
+STEP 08b - Cardiac rhythm service (single-lead ECG patch): inter-patient benchmark, personalisation, federation.
 
+Protocol (AAMI EC57 / de Chazal 2004): models are developed on DS1 (22 people) and tested on DS2 (22 other people).
+  A. Global models (no data from the tested person).
+  B. Patient-adaptive models: the first 5 minutes of each DS2 recording are labelled during onboarding (as allowed
+     by AAMI EC57) and used to personalise; all models are then evaluated on the remaining 25 minutes only.
+  C. Federated: every DS1 person is one client (FedAvg / FedProx MLP), optionally personalised as in B.
+  D. Ectopy-burden estimation: predicted vs. reference number of ventricular ectopic beats per hour.
+"""
 import os
 import time
 

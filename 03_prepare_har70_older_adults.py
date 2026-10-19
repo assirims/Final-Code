@@ -1,4 +1,12 @@
+"""
+STEP 03 - Older adults: activity and mobility monitoring service (HAR70+, UCI).
 
+18 community-dwelling adults aged 70-95 years wore two tri-axial accelerometers (lower back and right thigh,
+50 Hz) during a semi-structured free-living protocol; every sample is annotated from chest-camera video.
+Classes: walking, shuffling, stairs (up and down merged because of their rarity), standing, sitting, lying.
+
+Output PROCESSED_PATH/har70_windows.npz : X (N, 250, 6) in g, y (N,) class index, subject, t, purity.
+"""
 import os
 import zipfile
 

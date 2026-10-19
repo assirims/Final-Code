@@ -1,0 +1,12 @@
+fog windows 17720 subjects 10 features 276
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+[Parallel(n_jobs=2)]: Done  10 out of  10 | elapsed: 61.8min finished
+            model  AUROC  AUROC_lo  AUROC_hi  AUPRC   Sens   Spec     F1  BalAcc  p_holm  fit_s_mean  infer_ms_per_window    size_kB
+        Threshold 0.6921    0.5722    0.8192 0.2389 0.5398 0.7698 0.2907  0.6548  0.0469      0.0276               0.0004     0.7549
+               LR 0.8492    0.7900    0.9191 0.2874 0.9258 0.6017 0.3256  0.7637  0.3125      1.8072               0.0027     8.5791
+               RF 0.8901    0.8471    0.9388 0.4362 0.8821 0.7999 0.4678  0.8410  0.5469     69.2097               0.0876 21718.3408
+              HGB 0.8828    0.8411    0.9367 0.4577 0.9140 0.6748 0.3668  0.7944  0.0469     35.2612               0.0594  1521.0088
+              MLP 0.9050    0.8689    0.9424 0.5058 0.8816 0.7384 0.4052  0.8100  0.3125      5.8141               0.0116   350.2041
+    MiniRocket-LR 0.9030    0.8603    0.9425 0.5009 0.8851 0.7816 0.4484  0.8333  0.5000     10.2668               0.0151    56.1631
+CARES (dual-view) 0.9075    0.8666    0.9471 0.5036 0.8939 0.7734 0.4432  0.8337     NaN     45.8151               0.0790  1576.9355
+elapsed 62.7 min

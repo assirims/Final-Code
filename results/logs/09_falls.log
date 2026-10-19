@@ -1,0 +1,27 @@
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+fold done falls 101
+fold done falls 102
+fold done falls 103
+fold done falls 104
+fold done falls 105
+fold done falls 106
+fold done falls 107
+fold done falls 108
+fold done falls 109
+fold done falls 110
+fold done falls 203
+fold done falls 204
+fold done falls 206
+fold done falls 205
+[Parallel(n_jobs=2)]: Done  14 tasks      | elapsed:  3.7min
+fold done falls 208
+fold done falls 207
+fold done falls 209
+[Parallel(n_jobs=2)]: Done  17 out of  17 | elapsed:  4.7min finished
+                          method  AUROC  AUPRC  subject_median  subject_mean  p_vs_FedAvg  p_holm
+                     Central MLP 0.9996 0.9996             1.0        0.9997       0.2733  0.5466
+                      FedAvg MLP 0.9995 0.9995             1.0        0.9996          NaN     NaN
+                     FedProx MLP 0.9995 0.9995             1.0        0.9996          NaN     NaN
+FedAvg MLP (50% gateways online) 0.9994 0.9990             1.0        0.9995       0.1797  0.5391
+               CARES (dual-view) 0.9998 0.9998             1.0        0.9999       0.7150  0.7150
+elapsed 4.8 min

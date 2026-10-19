@@ -1,4 +1,16 @@
+"""
+STEP 08 - Subject-independent benchmark of the edge classifiers for each wearable monitoring service.
 
+Usage:  python 08_benchmark_models.py fog|har70|falls
+
+Protocol: leave-one-subject-out (LOSO). For every held-out person
+  * all scalers, the MiniRocket-lite kernels' biases and every model are fitted on the other people only;
+  * an inner 3-fold subject-grouped cross-validation on the training people produces out-of-fold scores that
+    are used (i) to choose each model's operating threshold (Youden) and (ii) later by the calibrated alarm
+    manager (script 10) - the held-out person is never used for any choice.
+Outputs: PRED_PATH/bench_<service>.npz (test probabilities of every model, thresholds, inner OOF scores),
+         TAB_PATH/T3_benchmark_<service>.csv, TAB_PATH/S2_per_subject_<service>.csv, timing/size table.
+"""
 import os
 import pickle
 import sys

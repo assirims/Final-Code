@@ -1,0 +1,53 @@
+MiniRocket features (100695, 336) 43s
+A done 2.7 min
+  record 100 3.4 min
+  record 103 4.0 min
+  record 105 4.6 min
+  record 111 5.2 min
+  record 113 5.8 min
+  record 117 6.5 min
+  record 121 7.1 min
+  record 123 7.7 min
+  record 200 8.3 min
+  record 202 9.0 min
+  record 210 9.6 min
+  record 212 10.3 min
+  record 213 11.0 min
+  record 214 11.6 min
+  record 219 12.2 min
+  record 221 12.8 min
+  record 222 13.4 min
+  record 228 14.0 min
+  record 231 14.6 min
+  record 232 15.3 min
+  record 233 15.9 min
+  record 234 16.5 min
+C done 18.6 min
+                              scenario                               model            eval   Acc  Se_S  PPV_S  Se_V  PPV_V  MacroF1_NSV
+             A. global (inter-patient)                                  LR DS2 (all beats) 0.744 0.846  0.286 0.765  0.624        0.654
+             A. global (inter-patient)                                  LR DS2 after 5 min 0.744 0.859  0.281 0.762  0.644        0.657
+             A. global (inter-patient)                                  RF DS2 (all beats) 0.946 0.061  0.493 0.916  0.903        0.663
+             A. global (inter-patient)                                  RF DS2 after 5 min 0.945 0.067  0.543 0.916  0.907        0.667
+             A. global (inter-patient)                                 HGB DS2 (all beats) 0.883 0.165  0.209 0.971  0.694        0.644
+             A. global (inter-patient)                                 HGB DS2 after 5 min 0.883 0.184  0.224 0.970  0.706        0.652
+             A. global (inter-patient)                       MiniRocket-LR DS2 (all beats) 0.586 0.233  0.054 0.805  0.436        0.459
+             A. global (inter-patient)                       MiniRocket-LR DS2 after 5 min 0.588 0.252  0.062 0.803  0.446        0.466
+             A. global (inter-patient)                                 MLP DS2 (all beats) 0.705 0.581  0.331 0.948  0.373        0.591
+             A. global (inter-patient)                                 MLP DS2 after 5 min 0.702 0.581  0.323 0.945  0.374        0.588
+             A. global (inter-patient)                   CARES (dual-view) DS2 (all beats) 0.866 0.159  0.190 0.973  0.648        0.627
+             A. global (inter-patient)                   CARES (dual-view) DS2 after 5 min 0.868 0.178  0.208 0.972  0.676        0.639
+B. patient-adaptive (5-min onboarding)                                  LR DS2 after 5 min 0.856 0.946  0.355 0.935  0.922        0.787
+B. patient-adaptive (5-min onboarding)                                 HGB DS2 after 5 min 0.978 0.896  0.784 0.975  0.950        0.929
+B. patient-adaptive (5-min onboarding)                       MiniRocket-LR DS2 after 5 min 0.899 0.853  0.460 0.921  0.900        0.817
+B. patient-adaptive (5-min onboarding)                   CARES (dual-view) DS2 after 5 min 0.975 0.887  0.816 0.974  0.945        0.932
+B. patient-adaptive (5-min onboarding)                                 MLP DS2 after 5 min 0.944 0.900  0.619 0.958  0.892        0.875
+         C. federated (22 DS1 clients)                          FedAvg MLP DS2 after 5 min 0.844 0.252  0.150 0.963  0.486        0.583
+         C. federated (22 DS1 clients)  FedAvg MLP + on-device fine-tuning DS2 after 5 min 0.961 0.894  0.677 0.957  0.957        0.902
+         C. federated (22 DS1 clients)                         FedProx MLP DS2 after 5 min 0.837 0.284  0.166 0.967  0.457        0.580
+         C. federated (22 DS1 clients) FedProx MLP + on-device fine-tuning DS2 after 5 min 0.964 0.897  0.708 0.959  0.957        0.910
+                              model beat  spearman_rho  median_abs_error_per_h
+          CARES (dual-view), global  VEB         0.728                  13.161
+          CARES (dual-view), global SVEB         0.601                   9.569
+CARES (dual-view), patient-adaptive  VEB         0.904                   2.393
+CARES (dual-view), patient-adaptive SVEB         0.861                   3.589
+elapsed 18.6 min

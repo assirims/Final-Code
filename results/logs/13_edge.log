@@ -1,0 +1,16 @@
+service  median_ms_per_window  p95_ms  windows_per_s_needed  persons_per_core  model_kB  duty_cycle_pct
+    fog                11.778  14.930                   1.0            84.903  1613.370           1.178
+  har70                24.286  36.115                   0.4           102.940  4568.243           0.971
+  falls                10.402  15.375                   2.5            38.453  1162.444           2.601
+service  raw_MB_per_day  features_MB_per_day  cares_MB_per_day  reduction_vs_raw  fl_update_kB  alerts_per_day
+    fog          99.533               95.386             0.205           485.445       171.258          67.883
+  har70          51.840               25.436             0.148           350.896       126.273          24.000
+  falls          51.840              317.952             0.237           219.107       217.258           7.177
+    ecg          62.208               23.224             0.082           759.190        62.020          24.000
+                        scenario  median_s  p95_s  p99_s  within_10s  within_30s  within_60s
+                  packet loss 0%     1.622  2.788  4.577       0.991       1.000       1.000
+                  packet loss 1%     1.633  2.854  5.682       0.990       1.000       1.000
+                  packet loss 5%     1.686  3.170 18.204       0.990       1.000       1.000
+                 packet loss 10%     1.749  4.158 18.167       0.988       1.000       1.000
+                 packet loss 20%     1.989  8.425 23.260       0.971       0.997       1.000
+cloud outage up to 60 s, 1% loss    31.886 58.953 61.331       0.135       0.467       0.967

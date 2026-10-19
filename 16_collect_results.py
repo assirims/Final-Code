@@ -1,4 +1,7 @@
-
+"""
+STEP 16 - Collect every number used in the manuscript into RESULTS_PATH/paper_numbers.json
+(all result tables as records + cohort summary). The Word manuscript is generated from this file.
+"""
 import glob
 import json
 import os

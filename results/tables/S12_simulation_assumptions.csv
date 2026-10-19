@@ -1,0 +1,16 @@
+parameter,value
+ble_interval_ms,"(7.5, 30.0)"
+ble_loss,0.01
+wan_median_ms,60.0
+wan_sigma,0.5
+rto_s,1.0
+rto_max_s,8.0
+broker_ms,5.0
+push_median_s,0.5
+push_sigma,0.6
+push_fail,0.01
+sms_after_s,15.0
+sms_delay_s,"(2.0, 10.0)"
+alert_bytes,256
+summary_bytes,512
+n_alerts,20000

@@ -1,0 +1,37 @@
+digraph G {
+ rankdir=TB; compound=true; nodesep=0.22; ranksep=0.42; newrank=true;
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#37474F", fillcolor="#FFFFFF"];
+ edge [color="#455A64", arrowsize=0.6, fontname="Helvetica", fontsize=8];
+ subgraph cluster_s { label="1  Sensing layer (home)"; fontname="Helvetica"; fontsize=12; style="rounded,filled"; fillcolor="#E3F2FD"; color="#90CAF9";
+   w1 [label="Belt / pendant IMU\n(waist acc + gyro)"]; w2 [label="Smartwatch IMU\n(wrist acc + gyro)"];
+   w3 [label="Leg / trunk accelerometers\n(gait & FoG cueing kit)"]; w4 [label="Single-lead ECG patch"];
+   a1 [label="Ambient sensors\nPIR motion, door, item use\n(no camera)"]; }
+ subgraph cluster_e { label="2  Edge layer (home gateway)"; fontname="Helvetica"; fontsize=12; style="rounded,filled"; fillcolor="#E8F5E9"; color="#A5D6A7";
+   e1 [label="Windowing + edge features\n(time, spectral, gait regularity)"];
+   e2 [label="MiniRocket-lite\nrandom-kernel transform"];
+   e3 [label="CARES dual-view ensemble\n(boosted trees + linear model, averaged)", fillcolor="#C8E6C9"];
+   e4 [label="Calibrated alarm manager\nsmoothing, refractory, conformal threshold", fillcolor="#FFF59D"];
+   e5 [label="Alert explanation\n(body site × feature family)"];
+   e6 [label="Federated client\n(local training, personal fine-tuning)"];
+   e7 [label="Local siren / voice prompt\n(works offline)"]; }
+ subgraph cluster_c { label="3  Federation & cloud layer"; fontname="Helvetica"; fontsize=12; style="rounded,filled"; fillcolor="#F3E5F5"; color="#CE93D8";
+   c1 [label="Federation server\nFedAvg / FedProx aggregation"];
+   c2 [label="Calibration service\nper-person thresholds → conformal quantile"];
+   c3 [label="MQTT broker (QoS 1)\n+ event store"];
+   c4 [label="Longitudinal analytics\nmobility, ectopy burden,\ncognitive-health risk"]; }
+ subgraph cluster_k { label="4  Care layer"; fontname="Helvetica"; fontsize=12; style="rounded,filled"; fillcolor="#FFF3E0"; color="#FFCC80";
+   k1 [label="Family caregiver app\n(push + SMS fallback)"]; k2 [label="Nurse / clinician dashboard"];
+   k3 [label="Emergency escalation\n(no acknowledgement in 60 s)"]; }
+ {rank=same; w1; w2; w3; w4; a1;}
+ {rank=same; e1; e2; e6;}
+ {rank=same; e3;}
+ {rank=same; e4; e7; e5;}
+ {rank=same; c1; c2; c3; c4;}
+ {rank=same; k1; k2; k3;}
+ w1 -> e1 [label=" BLE"]; w2 -> e1; w3 -> e1; w4 -> e1; a1 -> e1 [label=" Zigbee"];
+ e1 -> e3; e1 -> e2 -> e3; e3 -> e4 -> e5; e4 -> e7;
+ e6 -> c1 [dir=both, style=dashed, label=" model updates only"];
+ e4 -> c2 [dir=both, style=dashed, label=" thresholds"];
+ e5 -> c3 [label=" alert + explanation\n (~256 B)"]; e3 -> c4 [style=dotted, label=" hourly summaries"];
+ c3 -> k1; c3 -> k2; k1 -> k3 [style=dashed]; c4 -> k2;
+}

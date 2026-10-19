@@ -1,0 +1,86 @@
+method,subject,score,n_eval
+Central MLP,101,1.0,196
+FedAvg MLP,101,1.0,196
+FedProx MLP,101,1.0,196
+FedAvg MLP (50% gateways online),101,1.0,196
+CARES (dual-view),101,1.0,196
+Central MLP,102,1.0,180
+FedAvg MLP,102,1.0,180
+FedProx MLP,102,1.0,180
+FedAvg MLP (50% gateways online),102,1.0,180
+CARES (dual-view),102,1.0,180
+Central MLP,103,1.0,180
+FedAvg MLP,103,1.0,180
+FedProx MLP,103,1.0,180
+FedAvg MLP (50% gateways online),103,1.0,180
+CARES (dual-view),103,1.0,180
+Central MLP,104,1.0,180
+FedAvg MLP,104,1.0,180
+FedProx MLP,104,1.0,180
+FedAvg MLP (50% gateways online),104,1.0,180
+CARES (dual-view),104,1.0,180
+Central MLP,105,1.0,180
+FedAvg MLP,105,1.0,180
+FedProx MLP,105,1.0,180
+FedAvg MLP (50% gateways online),105,1.0,180
+CARES (dual-view),105,1.0,180
+Central MLP,106,0.9998750000000001,180
+FedAvg MLP,106,1.0,180
+FedProx MLP,106,1.0,180
+FedAvg MLP (50% gateways online),106,1.0,180
+CARES (dual-view),106,1.0,180
+Central MLP,107,1.0,211
+FedAvg MLP,107,1.0,211
+FedProx MLP,107,1.0,211
+FedAvg MLP (50% gateways online),107,1.0,211
+CARES (dual-view),107,1.0,211
+Central MLP,108,0.999469261388766,214
+FedAvg MLP,108,0.9993808049535603,214
+FedProx MLP,108,0.9993808049535603,214
+FedAvg MLP (50% gateways online),108,0.999203892083149,214
+CARES (dual-view),108,0.9996461742591773,214
+Central MLP,109,0.995409604519774,214
+FedAvg MLP,109,0.9941737288135594,214
+FedProx MLP,109,0.9941737288135594,214
+FedAvg MLP (50% gateways online),109,0.9928937146892655,214
+CARES (dual-view),109,0.9999117231638418,214
+Central MLP,110,1.0,216
+FedAvg MLP,110,0.9997395833333333,216
+FedProx MLP,110,0.9997395833333333,216
+FedAvg MLP (50% gateways online),110,0.9997395833333333,216
+CARES (dual-view),110,0.9987847222222221,216
+Central MLP,203,1.0,180
+FedAvg MLP,203,1.0,180
+FedProx MLP,203,1.0,180
+FedAvg MLP (50% gateways online),203,1.0,180
+CARES (dual-view),203,1.0,180
+Central MLP,204,1.0,180
+FedAvg MLP,204,1.0,180
+FedProx MLP,204,1.0,180
+FedAvg MLP (50% gateways online),204,1.0,180
+CARES (dual-view),204,1.0,180
+Central MLP,205,1.0,197
+FedAvg MLP,205,1.0,197
+FedProx MLP,205,1.0,197
+FedAvg MLP (50% gateways online),205,1.0,197
+CARES (dual-view),205,1.0,197
+Central MLP,206,1.0,180
+FedAvg MLP,206,1.0,180
+FedProx MLP,206,1.0,180
+FedAvg MLP (50% gateways online),206,1.0,180
+CARES (dual-view),206,1.0,180
+Central MLP,207,1.0,180
+FedAvg MLP,207,1.0,180
+FedProx MLP,207,1.0,180
+FedAvg MLP (50% gateways online),207,1.0,180
+CARES (dual-view),207,1.0,180
+Central MLP,208,1.0,214
+FedAvg MLP,208,1.0,214
+FedProx MLP,208,1.0,214
+FedAvg MLP (50% gateways online),208,1.0,214
+CARES (dual-view),208,1.0,214
+Central MLP,209,0.9999146174863388,218
+FedAvg MLP,209,0.9999146174863388,218
+FedProx MLP,209,0.9999146174863388,218
+FedAvg MLP (50% gateways online),209,0.9999146174863388,218
+CARES (dual-view),209,0.9996584699453552,218

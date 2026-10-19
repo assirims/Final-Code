@@ -1,4 +1,19 @@
+"""
+STEP 12 - Explainability, sensor placement, graceful degradation and robustness (wearable services).
 
+Usage: python 12_explainability_robustness.py fog|falls|har70
+
+All experiments use the leave-one-person-out protocol and the interpretable descriptor branch of CARES
+(gradient-boosted trees on the edge features) unless stated otherwise.
+  (a) sensor placement: one model per body-site configuration;
+  (b) graceful degradation when a worn sensor drops out at run time:
+        - "same model, missing inputs"  (features of the lost sensor are unavailable -> NaN),
+        - "CARES model bank"            (the gateway switches to a model trained without that sensor);
+  (c) battery-saving sampling rates (windows decimated, features recomputed, models retrained);
+  (d) sensor noise at test time (model trained on clean data);
+  (e) alert explanations: group-occlusion attribution of every positive decision to body sites and feature
+      families, with a deletion-based faithfulness check (removing the top group vs. a random group).
+"""
 import os
 import sys
 import time

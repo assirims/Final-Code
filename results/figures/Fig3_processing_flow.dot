@@ -1,0 +1,15 @@
+digraph G {
+ rankdir=TB; nodesep=0.3; ranksep=0.32;
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#37474F", fillcolor="#FFFFFF"];
+ edge [color="#455A64", arrowsize=0.6, fontname="Helvetica", fontsize=8];
+ s [label="Raw sensor stream x(t)\n(25-64 Hz IMU, 360 Hz ECG, ambient events)", fillcolor="#E3F2FD"];
+ w [label="Sliding window (FoG 4 s / 1 s hop, falls 4 s / 0.4 s, activity 5 s / 2.5 s, ECG one beat)"];
+ f [label="View 1: edge descriptors (22 per axis + magnitude, inter-axis correlation)\nmean, SD, percentiles, RMS, jerk, spectral entropy, band powers, freeze index, ACF peak", fillcolor="#E8F5E9"];
+ r [label="View 2: MiniRocket-lite (84 kernels × 4 dilations × channels)\nproportion of positive values of each random convolution", fillcolor="#E8F5E9"];
+ c [label="CARES dual-view ensemble (fixed, unweighted average)\np = ½ [ GBT(view 1) + LR(view 2) ]", fillcolor="#C8E6C9"];
+ a [label="Alarm manager: causal smoothing (k windows) → threshold θ → refractory period", fillcolor="#FFF59D"];
+ th [label="θ = conformal quantile of per-person thresholds\nP(false alarms of a new person > B per hour) ≤ δ\n(if people are exchangeable and scored by the same model)", shape=note, fillcolor="#FFFDE7"];
+ x [label="Explanation: group occlusion → top body site & feature family", fillcolor="#FCE4EC"];
+ o [label="Alert message {service, time, risk, explanation} → caregiver; local siren if offline", fillcolor="#FFEBEE"];
+ s -> w; w -> f; w -> r; f -> c; r -> c; c -> a; th -> a [style=dashed]; a -> x -> o;
+}

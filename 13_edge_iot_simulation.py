@@ -1,4 +1,14 @@
+"""
+STEP 13 - Edge cost, data minimisation and alert-delivery simulation of the IoT architecture.
 
+(a) Measured on this CPU (one core): end-to-end gateway latency of the CARES pipeline for ONE window
+    (feature extraction + MiniRocket-lite transform + both classifiers) and model memory footprint.
+(b) Data leaving the home per person-day for three architectures: raw cloud streaming, feature streaming and
+    CARES edge processing (alerts + hourly summaries + one federated model update per day).
+(c) Discrete-event Monte-Carlo simulation of alert delivery to a caregiver (BLE wearable -> home gateway ->
+    MQTT QoS-1 broker -> push notification, SMS fallback) under packet loss and a cloud outage.
+    Network parameters are ASSUMPTIONS stated in table S12; detection latencies are the measured ones (script 10).
+"""
 import json
 import os
 import pickle

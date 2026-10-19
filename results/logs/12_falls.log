@@ -1,0 +1,48 @@
+   waist (acc+gyr) 0.9996
+   wrist (acc+gyr) 0.9987
+   chest (acc+gyr) 0.999
+   thigh (acc+gyr) 0.9995
+   ankle (acc+gyr) 0.9996
+   head (acc+gyr) 0.9978
+   waist (acc only) 0.9989
+   wrist (acc only) 0.9982
+   waist+wrist (CARES kit) 0.9996
+   waist+wrist (acc only) 0.999
+   all six sites 0.9999
+placement done 4.6 min
+degradation done 6.3 min
+sampling done 6.8 min
+noise done 8.6 min
+                    analysis                                setting  score metric
+        (a) sensor placement                        waist (acc+gyr) 0.9996  AUROC
+        (a) sensor placement                        wrist (acc+gyr) 0.9987  AUROC
+        (a) sensor placement                        chest (acc+gyr) 0.9990  AUROC
+        (a) sensor placement                        thigh (acc+gyr) 0.9995  AUROC
+        (a) sensor placement                        ankle (acc+gyr) 0.9996  AUROC
+        (a) sensor placement                         head (acc+gyr) 0.9978  AUROC
+        (a) sensor placement                       waist (acc only) 0.9989  AUROC
+        (a) sensor placement                       wrist (acc only) 0.9982  AUROC
+        (a) sensor placement                waist+wrist (CARES kit) 0.9996  AUROC
+        (a) sensor placement                 waist+wrist (acc only) 0.9990  AUROC
+        (a) sensor placement                          all six sites 0.9999  AUROC
+          (b) sensor dropout waist lost: same model, missing inputs 0.9891  AUROC
+          (b) sensor dropout           waist lost: CARES model bank 0.9987  AUROC
+          (b) sensor dropout wrist lost: same model, missing inputs 0.9994  AUROC
+          (b) sensor dropout           wrist lost: CARES model bank 0.9996  AUROC
+           (c) sampling rate                   12.5 Hz (from 25 Hz) 0.9998  AUROC
+           (c) sampling rate                         25 Hz (native) 0.9996  AUROC
+(d) sensor noise (test only)            noise SD = 10% of signal SD 0.9993  AUROC
+(d) sensor noise (test only)            noise SD = 25% of signal SD 0.9967  AUROC
+(d) sensor noise (test only)            noise SD = 50% of signal SD 0.9849  AUROC
+site   family              
+waist  spectral                1430
+       time                     402
+wrist  spectral                  22
+       time                      16
+waist  gait regularity            3
+       posture/coordination       1
+wrist  gait regularity            1
+dtype: int64
+ n_alerts  mean_drop_top  mean_drop_random  wilcoxon_p
+     1875          0.024            0.0023         0.0
+elapsed 9.7 min

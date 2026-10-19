@@ -1,4 +1,15 @@
+"""
+STEP 01 - Download the five open datasets into DATA_PATH (skip if data/raw is already filled).
 
+  daphnet_fog.zip                   UCI Daphnet Freezing of Gait (CC BY 4.0)             20.5 MB
+  har70plus.zip                     UCI HAR70+ (CC BY 4.0)                               42.2 MB
+  simulated_falls_adl.zip           UCI Simulated Falls and Daily Living Activities      1.2 GB  (contains Tests.rar)
+  mitbih.zip                        PhysioNet MIT-BIH Arrhythmia Database (ODC-By 1.0)   73.5 MB
+  casas_cognitive_assessment.zip    CASAS cognitive assessment, Zenodo 15713579 (CC BY 4.0)  12.6 MB
+
+The falls archive only has to be downloaded if data/raw/falls_selected/ (the accelerometer/gyroscope subset that
+04_prepare_falls.py extracts, shipped with this package) is missing.
+"""
 import hashlib
 import os
 import sys

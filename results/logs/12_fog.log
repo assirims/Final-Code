@@ -1,0 +1,42 @@
+   ankle 0.8884
+   thigh 0.8161
+   trunk 0.8701
+   ankle+thigh 0.8715
+   ankle+trunk 0.8999
+   all three (CARES kit) 0.8794
+placement done 3.3 min
+degradation done 8.2 min
+sampling done 10.4 min
+noise done 14.2 min
+                    analysis                                setting  score metric
+        (a) sensor placement                                  ankle 0.8884  AUROC
+        (a) sensor placement                                  thigh 0.8161  AUROC
+        (a) sensor placement                                  trunk 0.8701  AUROC
+        (a) sensor placement                            ankle+thigh 0.8715  AUROC
+        (a) sensor placement                            ankle+trunk 0.8999  AUROC
+        (a) sensor placement                  all three (CARES kit) 0.8794  AUROC
+          (b) sensor dropout ankle lost: same model, missing inputs 0.7779  AUROC
+          (b) sensor dropout           ankle lost: CARES model bank 0.8516  AUROC
+          (b) sensor dropout thigh lost: same model, missing inputs 0.8690  AUROC
+          (b) sensor dropout           thigh lost: CARES model bank 0.8999  AUROC
+          (b) sensor dropout trunk lost: same model, missing inputs 0.8284  AUROC
+          (b) sensor dropout           trunk lost: CARES model bank 0.8715  AUROC
+           (c) sampling rate                     32 Hz (from 64 Hz) 0.8655  AUROC
+           (c) sampling rate                     16 Hz (from 64 Hz) 0.8503  AUROC
+           (c) sampling rate                         64 Hz (native) 0.8794  AUROC
+(d) sensor noise (test only)            noise SD = 10% of signal SD 0.8704  AUROC
+(d) sensor noise (test only)            noise SD = 25% of signal SD 0.8428  AUROC
+(d) sensor noise (test only)            noise SD = 50% of signal SD 0.8009  AUROC
+site   family              
+thigh  time                    239
+trunk  spectral                214
+ankle  time                     84
+       spectral                 65
+thigh  spectral                 33
+trunk  time                     31
+       posture/coordination      4
+thigh  posture/coordination      3
+dtype: int64
+ n_alerts  mean_drop_top  mean_drop_random  wilcoxon_p
+      675         0.3392            0.0363         0.0
+elapsed 16.1 min

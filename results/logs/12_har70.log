@@ -1,0 +1,18 @@
+   lower back 0.6506
+   thigh 0.5991
+   back+thigh (CARES kit) 0.701
+placement done 5.8 min
+degradation done 5.8 min
+sampling done 11.1 min
+noise done 19.6 min
+                    analysis                     setting  score   metric
+        (a) sensor placement                  lower back 0.6506 macro-F1
+        (a) sensor placement                       thigh 0.5991 macro-F1
+        (a) sensor placement      back+thigh (CARES kit) 0.7010 macro-F1
+           (c) sampling rate          25 Hz (from 50 Hz) 0.7194 macro-F1
+           (c) sampling rate        12.5 Hz (from 50 Hz) 0.7350 macro-F1
+           (c) sampling rate              50 Hz (native) 0.7010 macro-F1
+(d) sensor noise (test only) noise SD = 10% of signal SD 0.6805 macro-F1
+(d) sensor noise (test only) noise SD = 25% of signal SD 0.4651 macro-F1
+(d) sensor noise (test only) noise SD = 50% of signal SD 0.4151 macro-F1
+elapsed 19.6 min

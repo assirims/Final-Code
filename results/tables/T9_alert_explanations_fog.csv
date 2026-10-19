@@ -1,0 +1,10 @@
+site,family,alerts
+thigh,time,239
+trunk,spectral,214
+ankle,time,84
+ankle,spectral,65
+thigh,spectral,33
+trunk,time,31
+trunk,posture/coordination,4
+thigh,posture/coordination,3
+ankle,gait regularity,2

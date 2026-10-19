@@ -1,0 +1,19 @@
+method,eval_set,people,AUROC,subject_median,p_vs_FedAvg,p_holm
+FedAvg MLP,after routine onboarding (as Table 5),10,0.9000517806314277,0.9437328381172359,,
+FT all layers (1 min),after routine onboarding (as Table 5),10,0.8528929971742708,0.8878243105678592,0.0390625,0.390625
+FT last layer (1 min),after routine onboarding (as Table 5),10,0.9022843930732921,0.9426757250197544,0.546875,1.0
+FT all + statistics replay (1 min),after routine onboarding (as Table 5),10,0.8843478062862838,0.9423670122234987,0.109375,0.984375
+FT last + statistics replay (1 min),after routine onboarding (as Table 5),10,0.906774407416188,0.9473195251512734,0.9453125,1.0
+FT all + real-data replay (1 min),after routine onboarding (as Table 5),10,0.9068180110251457,0.9316766494193038,0.1484375,1.0
+FT all layers (5 min),after routine onboarding (as Table 5),10,0.8968497953644948,0.8839087321194574,0.1484375,1.0
+FT last layer (5 min),after routine onboarding (as Table 5),10,0.9249025001771058,0.9346108689436442,0.25,1.0
+FT all + statistics replay (5 min),after routine onboarding (as Table 5),10,0.9083388080086803,0.899670575486857,0.3125,1.0
+FT last + statistics replay (5 min),after routine onboarding (as Table 5),10,0.9174264191790421,0.939022932563196,0.3828125,1.0
+FT all + real-data replay (5 min),after routine onboarding (as Table 5),10,0.918003171112835,0.9047957580941505,0.4609375,1.0
+FedAvg MLP,outside every onboarding set,8,0.8866510605415525,0.9436603702394104,,
+"FT all layers, onboarding with a freeze (1 min)",outside every onboarding set,8,0.8799982409280941,0.9215387409297175,0.1953125,0.5859375
+"FT last layer, onboarding with a freeze (1 min)",outside every onboarding set,8,0.9007908574653997,0.9427238236044252,0.1953125,0.5859375
+"FT all layers, routine onboarding (1 min)",outside every onboarding set,8,0.8468857419973103,0.8808211666032089,0.0390625,0.234375
+"FT all layers, onboarding with a freeze (5 min)",outside every onboarding set,8,0.8819482977838109,0.9068117650690205,0.25,0.5859375
+"FT last layer, onboarding with a freeze (5 min)",outside every onboarding set,8,0.907705749797151,0.9327304034322235,0.109375,0.4375
+"FT all layers, routine onboarding (5 min)",outside every onboarding set,8,0.8918736193822661,0.8913669165646675,0.078125,0.390625

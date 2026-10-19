@@ -1,4 +1,14 @@
+"""
+STEP 02 - Parkinson's disease: freezing-of-gait (FoG) monitoring service (Daphnet, UCI).
 
+10 people with Parkinson's disease wore three accelerometers (shank/ankle, thigh, lower back/hip, 64 Hz)
+while walking, turning and performing ADL tasks in the clinic. Samples are annotated as
+0 = outside the protocol (removed), 1 = gait without freeze, 2 = freeze.
+
+Output  PROCESSED_PATH/fog_windows.npz  with
+  X (N, 256, 9) acceleration in g, y (N,) 1 = freeze window, subject (N,), run (N,), t (N,) start time [s],
+  purity / coverage of the window label, and freeze episodes per subject (for event-level evaluation).
+"""
 import io
 import json
 import os

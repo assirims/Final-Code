@@ -1,0 +1,18 @@
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+fusion fold done fog 1
+fusion fold done fog 2
+fusion fold done fog 4
+fusion fold done fog 3
+fusion fold done fog 5
+fusion fold done fog 6
+fusion fold done fog 7
+fusion fold done fog 8
+fusion fold done fog 9
+fusion fold done fog 10
+[Parallel(n_jobs=2)]: Done  10 out of  10 | elapsed: 43.7min finished
+service                                            method  AUROC  AUROC_lo  AUROC_hi  AUPRC  p_vs_CARES  p_holm
+    fog          GBT on concatenated views (early fusion) 0.8925    0.8414    0.9494 0.4834      0.1953  0.5859
+    fog                             GBT (MiniRocket-lite) 0.8930    0.8477    0.9360 0.4829      0.3125  0.6250
+    fog GBT(descriptors) + GBT(MiniRocket-lite), averaged 0.9031    0.8624    0.9457 0.4983      0.3125  0.6250
+    fog                          CARES dual-view ensemble 0.9075    0.8666    0.9471 0.5036         NaN     NaN
+elapsed 44.2 min

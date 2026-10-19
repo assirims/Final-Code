@@ -1,0 +1,27 @@
+             count   mean    25%    50%    75%
+group                                         
+MCI           56.0  0.361  0.178  0.304  0.526
+dementia      20.0  0.719  0.611  0.755  0.845
+middle-aged   31.0  0.223  0.128  0.179  0.251
+old-old       39.0  0.397  0.250  0.390  0.544
+young-old     81.0  0.295  0.176  0.253  0.384
+Kruskal p=3.56e-12, Spearman(severity, risk)=0.327
+                        task                model   n  n_impaired  AUROC  AUROC_lo  AUROC_hi  AUROC_sd  AUPRC  Sens  Spec  BalAcc
+A: impaired vs healthy (45+)                   LR 227          76  0.636     0.602     0.665     0.020  0.524 0.579 0.735   0.657
+A: impaired vs healthy (45+)                   RF 227          76  0.688     0.666     0.709     0.014  0.546 0.500 0.841   0.671
+A: impaired vs healthy (45+)                  HGB 227          76  0.624     0.581     0.662     0.023  0.520 0.500 0.795   0.647
+A: impaired vs healthy (45+) CARES-Cog (ensemble) 227          76  0.657     0.616     0.685     0.021  0.542 0.526 0.815   0.670
+B: impaired vs healthy (60+)                   LR 196          76  0.570     0.542     0.593     0.017  0.525 0.526 0.717   0.621
+B: impaired vs healthy (60+)                   RF 196          76  0.651     0.617     0.682     0.020  0.570 0.500 0.808   0.654
+B: impaired vs healthy (60+)                  HGB 196          76  0.615     0.567     0.667     0.029  0.549 0.605 0.725   0.665
+B: impaired vs healthy (60+) CARES-Cog (ensemble) 196          76  0.615     0.592     0.649     0.019  0.553 0.382 0.900   0.641
+C: dementia vs healthy (60+)                   LR 140          20  0.958     0.953     0.963     0.004  0.809 0.850 0.975   0.912
+C: dementia vs healthy (60+)                   RF 140          20  0.926     0.911     0.935     0.007  0.679 0.800 0.933   0.867
+C: dementia vs healthy (60+)                  HGB 140          20  0.961     0.951     0.974     0.007  0.769 0.900 0.967   0.933
+C: dementia vs healthy (60+) CARES-Cog (ensemble) 140          20  0.962     0.953     0.968     0.005  0.777 0.950 0.975   0.962
+     D: MCI vs healthy (60+)                   LR 176          56  0.473     0.431     0.507     0.029  0.340 0.232 0.875   0.554
+     D: MCI vs healthy (60+)                   RF 176          56  0.523     0.496     0.558     0.018  0.370 0.357 0.800   0.579
+     D: MCI vs healthy (60+)                  HGB 176          56  0.480     0.433     0.556     0.036  0.344 0.250 0.867   0.558
+     D: MCI vs healthy (60+) CARES-Cog (ensemble) 176          56  0.482     0.452     0.531     0.025  0.355 0.179 0.925   0.552
+  n  spearman_rho  rho_lo  rho_hi   MAE  MAE_mean_baseline
+268         0.508   0.478   0.551 3.421              4.372

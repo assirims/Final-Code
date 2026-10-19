@@ -1,0 +1,21 @@
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+[Parallel(n_jobs=2)]: Done  14 tasks      | elapsed:    5.2s
+[Parallel(n_jobs=2)]: Done  17 out of  17 | elapsed:    5.2s finished
+young LOPO done 0.2 min
+HAR70+ windows 112810 1.6 min
+magnitude detector window AUROC (young, LOPO): 0.9999
+                                calibration                       population  budget_per_h  people  covered  coverage  people_with_fa  total_fa  hours  pooled_fa_per_h  median_fa_per_h  max_fa_per_h  median_threshold  people_margin_raised  fall_sensitivity
+           older adults, leave-one-out (17)            older adults (HAR70+)           0.0    18.0     17.0     0.944             1.0       1.0 12.552            0.080              0.0         1.380             0.640                   0.0               NaN
+           older adults, leave-one-out (17)            older adults (HAR70+)           2.0    18.0     18.0     1.000             1.0       1.0 12.552            0.080              0.0         1.380             0.500                   0.0               NaN
+                      young volunteers (17)            older adults (HAR70+)           0.0    18.0     18.0     1.000             0.0       0.0 12.552            0.000              0.0         0.000             0.996                   0.0               NaN
+                      young volunteers (17)            older adults (HAR70+)           2.0    18.0     18.0     1.000             0.0       0.0 12.552            0.000              0.0         0.000             0.995                   0.0               NaN
+young volunteers (17) + personal ADL margin            older adults (HAR70+)           0.0    18.0     18.0     1.000             0.0       0.0 11.052            0.000              0.0         0.000             0.996                   0.0               NaN
+young volunteers (17) + personal ADL margin            older adults (HAR70+)           2.0    18.0     18.0     1.000             0.0       0.0 11.052            0.000              0.0         0.000             0.995                   0.0               NaN
+       young volunteers, leave-one-out (16) young volunteers (falls dataset)           0.0    17.0     16.0     0.941             1.0       1.0  8.148            0.123              0.0         1.756             0.996                   0.0             0.921
+       young volunteers, leave-one-out (16) young volunteers (falls dataset)           2.0    17.0     16.0     0.941             2.0       3.0  8.148            0.368              0.0         4.614             0.995                   0.0             0.929
+ budget_per_h    calibration_source  threshold  n_cal  fall_sensitivity_on_volunteers  falls
+          0.0 young volunteers (17)      0.996     17                           0.921   1825
+          0.0     older adults (18)      0.640     18                           0.991   1825
+          2.0 young volunteers (17)      0.995     17                           0.929   1825
+          2.0     older adults (18)      0.500     18                           0.996   1825
+elapsed 1.8 min

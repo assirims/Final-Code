@@ -1,0 +1,5 @@
+service,folds,n_calibration,quantile_index,uses_maximum,attainable_level,smallest_delta_with_finite_threshold
+FoG,10,9,9,True,0.9,0.1
+Falls,17,16,16,True,0.9411764705882353,0.058823529411764705
+Falls (split conformal),17,10,10,True,0.9090909090909091,0.09090909090909091
+"Falls, older-adult calibration (HAR70+)",18,17,17,True,0.9444444444444444,0.05555555555555555

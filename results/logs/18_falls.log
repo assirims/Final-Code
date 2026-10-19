@@ -1,0 +1,26 @@
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+fusion fold done falls 101
+fusion fold done falls 102
+fusion fold done falls 103
+fusion fold done falls 104
+fusion fold done falls 105
+fusion fold done falls 106
+fusion fold done falls 107
+fusion fold done falls 108
+fusion fold done falls 110
+fusion fold done falls 109
+fusion fold done falls 203
+fusion fold done falls 204
+fusion fold done falls 205
+fusion fold done falls 206
+[Parallel(n_jobs=2)]: Done  14 tasks      | elapsed:  8.5min
+fusion fold done falls 207
+fusion fold done falls 208
+fusion fold done falls 209
+[Parallel(n_jobs=2)]: Done  17 out of  17 | elapsed: 10.4min finished
+service                                            method  AUROC  AUROC_lo  AUROC_hi  AUPRC  p_vs_CARES  p_holm
+  falls          GBT on concatenated views (early fusion) 0.9998    0.9996       1.0 0.9998      0.4652  0.9304
+  falls                             GBT (MiniRocket-lite) 0.9997    0.9994       1.0 0.9998      0.1441  0.4324
+  falls GBT(descriptors) + GBT(MiniRocket-lite), averaged 0.9998    0.9995       1.0 0.9998      1.0000  1.0000
+  falls                          CARES dual-view ensemble 0.9998    0.9995       1.0 0.9998         NaN     NaN
+elapsed 10.6 min

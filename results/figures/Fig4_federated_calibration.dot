@@ -1,0 +1,40 @@
+digraph G {
+ rankdir=TB; nodesep=0.3; ranksep=0.35; newrank=true; compound=true;
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#37474F", fillcolor="#FFFFFF"];
+ edge [color="#455A64", arrowsize=0.6, fontname="Helvetica", fontsize=8.5];
+ subgraph cluster_f { label="A. Federated training across homes
+(raw data never leave a home)"; fontname="Helvetica"; style="rounded,filled"; fillcolor="#F3E5F5"; color="#CE93D8";
+  srv [label="Server aggregation
+w(r+1) = w(r) + Σ_k (n_k / n) Δ_k
+FedProx: + μ/2 ‖w − w(r)‖²"];
+  g1 [label="Gateway 1
+one local epoch"]; g2 [label="Gateway 2"]; gk [label="Gateway K
+(may be offline)", style="rounded,dashed"];
+  srv -> g1 [label=" w(r)"]; srv -> g2; srv -> gk [style=dashed]; g1 -> srv [label=" Δ_1"]; g2 -> srv [label=" Δ_2"]; }
+ subgraph cluster_o { label="B. Onboarding of a new person
+(first 1–5 minutes, supervised)"; fontname="Helvetica"; style="rounded,filled"; fillcolor="#E8F5E9"; color="#A5D6A7";
+  on [label="Labelled onboarding minutes
+FoG: walking course
+activity: usual routine
+ECG: first 5 min
+falls: ADL only (alarm threshold)"];
+  ft [label="On-device personalisation
+fine-tune MLP (all / last layer,
+± class-balanced replay), or
+Platt-recalibrate CARES"]; on -> ft; }
+ subgraph cluster_c { label="C. Alarm calibration with a
+per-person guarantee"; fontname="Helvetica"; style="rounded,filled"; fillcolor="#FFFDE7"; color="#FFE082";
+  oof [label="Out-of-fold scores of
+n calibration people"]; tj [label="θ_j = smallest threshold
+with FA_j(θ) ≤ B"];
+  q [label="θ̂ = ⌈(n+1)(1−δ)⌉-th
+smallest θ_j
+(= largest θ_j for n ≤ 18, δ = 0.1)"];
+  gu [label="P( FA_new(θ̂) ≤ B ) ≥ 1 − δ
+if (A1) people are exchangeable and
+(A2) all are scored by the same model", shape=note, fillcolor="#FFF59D"];
+  oof -> tj -> q -> gu; }
+ {rank=same; srv; on; oof;}
+ {rank=same; g1; g2; gk; ft; tj;}
+ srv -> on [label=" global model", constraint=false];
+}

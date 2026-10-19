@@ -60,7 +60,8 @@ WIN = {
 # MiniRocket-lite random-kernel transform
 ROCKET = dict(dilations=(1, 2, 4, 8, 16), n_bias=2)
 
-# hist-gradient-boosting default (selected on inner validation folds, see 07_train_evaluate.py)
+# hist-gradient-boosting setting shared by every service; never tuned on held-out people or on DS2
+# (22_revision_ecg.py repeats the ECG analysis with a setting selected by cross-validation inside DS1 only)
 HGB = dict(max_iter=300, learning_rate=0.06, max_leaf_nodes=31, l2_regularization=1.0)
 
 # federated learning

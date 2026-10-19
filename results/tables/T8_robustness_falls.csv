@@ -1,0 +1,21 @@
+analysis,setting,score,metric
+(a) sensor placement,waist (acc+gyr),0.9995850475969352,AUROC
+(a) sensor placement,wrist (acc+gyr),0.9987380543301602,AUROC
+(a) sensor placement,chest (acc+gyr),0.9990278151845833,AUROC
+(a) sensor placement,thigh (acc+gyr),0.9994639424193175,AUROC
+(a) sensor placement,ankle (acc+gyr),0.9995642442535407,AUROC
+(a) sensor placement,head (acc+gyr),0.9978416531228234,AUROC
+(a) sensor placement,waist (acc only),0.9988762479684236,AUROC
+(a) sensor placement,wrist (acc only),0.9982008822846528,AUROC
+(a) sensor placement,waist+wrist (CARES kit),0.9996143951706524,AUROC
+(a) sensor placement,waist+wrist (acc only),0.9990003250522405,AUROC
+(a) sensor placement,all six sites,0.9998577199907128,AUROC
+(b) sensor dropout,"waist lost: same model, missing inputs",0.989067100069654,AUROC
+(b) sensor dropout,waist lost: CARES model bank,0.9987380543301602,AUROC
+(b) sensor dropout,"wrist lost: same model, missing inputs",0.9993844439284886,AUROC
+(b) sensor dropout,wrist lost: CARES model bank,0.9995850475969352,AUROC
+(c) sampling rate,12.5 Hz (from 25 Hz),0.9997537032737405,AUROC
+(c) sampling rate,25 Hz (native),0.9996143951706524,AUROC
+(d) sensor noise (test only),noise SD = 10% of signal SD,0.9992592523798469,AUROC
+(d) sensor noise (test only),noise SD = 25% of signal SD,0.9966933828651033,AUROC
+(d) sensor noise (test only),noise SD = 50% of signal SD,0.9849335500348271,AUROC

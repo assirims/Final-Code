@@ -1,0 +1,19 @@
+analysis,setting,score,metric
+(a) sensor placement,ankle,0.8883871670772615,AUROC
+(a) sensor placement,thigh,0.8161151006006356,AUROC
+(a) sensor placement,trunk,0.8701242700212433,AUROC
+(a) sensor placement,ankle+thigh,0.8715364636228763,AUROC
+(a) sensor placement,ankle+trunk,0.8999295760429239,AUROC
+(a) sensor placement,all three (CARES kit),0.8793822860192391,AUROC
+(b) sensor dropout,"ankle lost: same model, missing inputs",0.777931884966039,AUROC
+(b) sensor dropout,ankle lost: CARES model bank,0.8515838549851236,AUROC
+(b) sensor dropout,"thigh lost: same model, missing inputs",0.8689932720829895,AUROC
+(b) sensor dropout,thigh lost: CARES model bank,0.8999295760429239,AUROC
+(b) sensor dropout,"trunk lost: same model, missing inputs",0.8284300437155178,AUROC
+(b) sensor dropout,trunk lost: CARES model bank,0.8715364636228763,AUROC
+(c) sampling rate,32 Hz (from 64 Hz),0.8655090349461187,AUROC
+(c) sampling rate,16 Hz (from 64 Hz),0.8503354653966597,AUROC
+(c) sampling rate,64 Hz (native),0.8793822860192391,AUROC
+(d) sensor noise (test only),noise SD = 10% of signal SD,0.8703582442313423,AUROC
+(d) sensor noise (test only),noise SD = 25% of signal SD,0.8427998188079004,AUROC
+(d) sensor noise (test only),noise SD = 50% of signal SD,0.8008991273629897,AUROC

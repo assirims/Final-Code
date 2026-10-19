@@ -1,0 +1,5 @@
+model,beat,spearman_rho,median_abs_error_per_h
+"CARES (dual-view), global",VEB,0.7281490367138895,13.160804468181961
+"CARES (dual-view), global",SVEB,0.6013184790070554,9.569395781680036
+"CARES (dual-view), patient-adaptive",VEB,0.9036045012825923,2.3925829031078667
+"CARES (dual-view), patient-adaptive",SVEB,0.8612872559249669,3.5886626587959056

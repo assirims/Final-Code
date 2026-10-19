@@ -1,4 +1,10 @@
+"""
+STEP 07 - Edge feature extraction for the three wearable services (what the home gateway computes per window).
 
+Writes PROCESSED_PATH/<service>_features.npz with the handcrafted descriptor matrix F, feature names and the
+window metadata. Raw windows stay in <service>_windows.npz for the random-kernel (MiniRocket-lite) branch.
+Also measures the extraction time per window on this CPU (single thread) for the edge-cost analysis.
+"""
 import json
 import os
 import time

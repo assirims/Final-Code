@@ -1,4 +1,16 @@
+"""
+STEP 06 - Cognitive-health surveillance from ambient smart-home sensors (CASAS, Washington State University).
 
+Participants performed 24 everyday tasks (8 uncued, 8 cued, 8 interwoven "day-out" tasks) in a smart apartment
+instrumented with passive infrared motion (M), door/cabinet (D), item-use (I) and other ambient sensors.
+No camera or wearable is used. Clinical groups: dementia, mild cognitive impairment (MCI), and cognitively
+healthy adults (middle-aged 45-59, young-old 60-74, old-old 75+).
+
+Only automatically observable information is used: sensor events between the task start/stop prompts
+(the experimenters' step annotations and quality scores are NOT used as features).
+
+Output PROCESSED_PATH/cog_features.csv  (one row per participant)
+"""
 import os
 import re
 import zipfile

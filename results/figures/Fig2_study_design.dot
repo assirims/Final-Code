@@ -1,0 +1,26 @@
+digraph G {
+ rankdir=LR; nodesep=0.22; ranksep=0.45;
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=9.5, color="#37474F", fillcolor="#FFFFFF"];
+ edge [color="#455A64", arrowsize=0.6];
+ subgraph cluster_d { label="Open datasets (no new data collected)"; fontname="Helvetica"; style="rounded,dashed"; color="#90A4AE";
+  d1 [label="UCI Simulated Falls & ADL\n17 people, 20 falls + 16 ADLs,\n6 IMUs at 25 Hz", fillcolor="#E3F2FD"];
+  d2 [label="UCI HAR70+\n18 adults aged 70-95,\n2 accelerometers at 50 Hz", fillcolor="#E3F2FD"];
+  d3 [label="UCI Daphnet FoG\n10 people with Parkinson's,\n3 accelerometers at 64 Hz", fillcolor="#E3F2FD"];
+  d4 [label="PhysioNet MIT-BIH\n44 non-paced records,\nlead MLII at 360 Hz", fillcolor="#E3F2FD"];
+  d5 [label="CASAS smart apartment\n350 people incl. dementia / MCI,\nambient sensors", fillcolor="#E3F2FD"]; }
+ subgraph cluster_v { label="Monitoring services"; fontname="Helvetica"; style="rounded,dashed"; color="#90A4AE";
+  v1 [label="S1 fall detection\n+ calibrated alarms", fillcolor="#E8F5E9"]; v2 [label="S2 mobility / activity\nprofile of older adults", fillcolor="#E8F5E9"];
+  v3 [label="S3 freezing-of-gait\ndetection & cueing", fillcolor="#E8F5E9"]; v4 [label="S4 arrhythmia &\nectopy burden", fillcolor="#E8F5E9"];
+  v5 [label="S5 cognitive-health\nsurveillance", fillcolor="#E8F5E9"]; }
+ subgraph cluster_p { label="Evaluation protocols"; fontname="Helvetica"; style="rounded,dashed"; color="#90A4AE";
+  p1 [label="Leave-one-person-out\n(inner subject-grouped CV for\nthresholds & calibration)", fillcolor="#FFF8E1"];
+  p2 [label="Inter-patient DS1 → DS2\n(AAMI EC57)", fillcolor="#FFF8E1"];
+  p3 [label="Repeated stratified\n5-fold CV (10 x)", fillcolor="#FFF8E1"]; }
+ subgraph cluster_a { label="Analyses"; fontname="Helvetica"; style="rounded,dashed"; color="#90A4AE";
+  a1 [label="Model benchmark (7 detectors)"]; a2 [label="Federated learning & on-device\npersonalisation (onboarding 1-5 min)"];
+  a3 [label="Alarm budget guarantee\n(conformal vs. naive thresholds,\nsplit conformal, older-adult ADL check)"]; a4 [label="Explainability, sensor placement,\ndropout, sampling rate, noise"];
+  a5 [label="Edge latency, data minimisation,\nalert-delivery simulation"]; a6 [label="Fusion ablation and\nprobability calibration"]; }
+ d1 -> v1; d2 -> v2; d3 -> v3; d4 -> v4; d5 -> v5;
+ v1 -> p1; v2 -> p1; v3 -> p1; v4 -> p2; v5 -> p3;
+ p1 -> a1; p1 -> a2; p1 -> a3; p1 -> a4; p2 -> a1; p2 -> a2; p3 -> a1; p1 -> a5; p1 -> a6;
+}

@@ -1,0 +1,37 @@
+subject 101 trials 196 unreadable entries 0
+subject 102 trials 180 unreadable entries 0
+subject 103 trials 180 unreadable entries 0
+subject 104 trials 180 unreadable entries 0
+subject 105 trials 180 unreadable entries 0
+subject 106 trials 180 unreadable entries 0
+subject 107 trials 211 unreadable entries 1
+subject 108 trials 214 unreadable entries 0
+subject 109 trials 214 unreadable entries 0
+subject 110 trials 216 unreadable entries 0
+subject 203 trials 180 unreadable entries 0
+subject 204 trials 180 unreadable entries 0
+subject 205 trials 197 unreadable entries 0
+subject 206 trials 180 unreadable entries 0
+subject 207 trials 180 unreadable entries 0
+subject 208 trials 214 unreadable entries 0
+subject 209 trials 218 unreadable entries 0
+wrote /home/claude/IoTCARES/data/raw/falls_selected.npz 3300 trials
+ subject  trials  falls  adl_minutes    sex  age  height_cm  weight_kg
+     101     196    100    30.572000   Male   21        175         75
+     102     180    100    20.610667   Male   21        174         81
+     103     180    100    25.156667   Male   23        180         78
+     104     180    100    27.880667   Male   27        176         67
+     105     180    100    28.405333   Male   25        170         54
+     106     180    100    25.480667   Male   22        160         54
+     107     211    117    36.934667   Male   21        175         72
+     108     214    119    36.822000   Male   21        184         68
+     109     214    118    34.443333   Male   22        181         83
+     110     216    120    31.938000   Male   23        171         92
+     203     180    100    26.250000 Female   21        170         51
+     204     180    100    27.064000 Female   21        157         47
+     205     197    111    24.866000 Female   20        169         51
+     206     180    100    25.832000 Female   19        166         47
+     207     180    100    23.846667 Female   20        165         60
+     208     214    118    30.904000 Female   24        163         55
+     209     218    122    36.240667 Female   22        182         70
+windows (3300, 100, 36) fall prevalence 0.553

@@ -1,4 +1,18 @@
+"""
+STEP 10 - Calibrated alarm management with a guaranteed false-alarm budget (fall detection and FoG cueing).
 
+Usage: python 10_calibrated_alarms.py fog|falls
+
+FoG:   the window probabilities of the LOSO benchmark (script 08) are turned into cueing alerts; thresholds are
+       calibrated on the inner out-of-fold scores of the training people only.
+Falls: continuous streaming evaluation. Every trial is scanned with 4-s windows every 0.4 s, so the detector also
+       sees the calm and transitional parts of each activity. The streaming CARES detector is trained per LOSO fold
+       (positives: windows containing the impact; negatives: every ADL window; other parts of fall trials are not
+       used for training) and an inner 3-fold subject-grouped CV gives calibration scores.
+Threshold policies compared: fixed 0.5, Youden (window-optimal), naive pooled budget calibration, and the proposed
+subject-level conformal calibration (P(new person exceeds budget) <= delta). For falls we also evaluate a personal
+margin learnt from the first minutes of the new person's ADL (no falls are ever needed from the user).
+"""
 import json
 import os
 import pickle

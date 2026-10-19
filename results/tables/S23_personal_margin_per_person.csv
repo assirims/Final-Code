@@ -1,0 +1,137 @@
+base_threshold,personal_margin,subject,threshold,margin_raised,fa,hours,zero_fa,falls,detected
+fixed 0.5,False,101,0.5,False,0,0.4202222222222222,True,100,100
+fixed 0.5,True,101,0.5,False,0,0.4202222222222222,True,100,100
+Youden (window-optimal),False,101,0.5242846762650373,False,0,0.4202222222222222,True,100,100
+Youden (window-optimal),True,101,0.5242846762650373,False,0,0.4202222222222222,True,100,100
+"conformal, delta = 0.10 (paper)",False,101,0.998,False,0,0.4202222222222222,True,100,94
+"conformal, delta = 0.10 (paper)",True,101,0.998,False,0,0.4202222222222222,True,100,94
+"conformal, delta = 0.50 (median)",False,101,0.45,False,0,0.4202222222222222,True,100,100
+"conformal, delta = 0.50 (median)",True,101,0.45,False,0,0.4202222222222222,True,100,100
+fixed 0.5,False,102,0.5,False,0,0.2568888888888889,True,100,100
+fixed 0.5,True,102,0.5,False,0,0.2568888888888889,True,100,100
+Youden (window-optimal),False,102,0.5102620531136889,False,0,0.2568888888888889,True,100,100
+Youden (window-optimal),True,102,0.5102620531136889,False,0,0.2568888888888889,True,100,100
+"conformal, delta = 0.10 (paper)",False,102,0.999,False,0,0.2568888888888889,True,100,96
+"conformal, delta = 0.10 (paper)",True,102,0.999,False,0,0.2568888888888889,True,100,96
+"conformal, delta = 0.50 (median)",False,102,0.41000000000000003,False,1,0.2568888888888889,False,100,100
+"conformal, delta = 0.50 (median)",True,102,0.41000000000000003,False,1,0.2568888888888889,False,100,100
+fixed 0.5,False,103,0.5,False,0,0.32944444444444443,True,100,100
+fixed 0.5,True,103,0.5,False,0,0.32944444444444443,True,100,100
+Youden (window-optimal),False,103,0.597137037937596,False,0,0.32944444444444443,True,100,100
+Youden (window-optimal),True,103,0.597137037937596,False,0,0.32944444444444443,True,100,100
+"conformal, delta = 0.10 (paper)",False,103,0.998,False,0,0.32944444444444443,True,100,100
+"conformal, delta = 0.10 (paper)",True,103,0.998,False,0,0.32944444444444443,True,100,100
+"conformal, delta = 0.50 (median)",False,103,0.4,False,0,0.32944444444444443,True,100,100
+"conformal, delta = 0.50 (median)",True,103,0.4,False,0,0.32944444444444443,True,100,100
+fixed 0.5,False,104,0.5,False,0,0.373,True,100,100
+fixed 0.5,True,104,0.5,False,0,0.373,True,100,100
+Youden (window-optimal),False,104,0.5209854983078207,False,0,0.373,True,100,100
+Youden (window-optimal),True,104,0.5209854983078207,False,0,0.373,True,100,100
+"conformal, delta = 0.10 (paper)",False,104,0.999,False,0,0.373,True,100,100
+"conformal, delta = 0.10 (paper)",True,104,0.999,False,0,0.373,True,100,100
+"conformal, delta = 0.50 (median)",False,104,0.44,False,0,0.373,True,100,95
+"conformal, delta = 0.50 (median)",True,104,0.44,False,0,0.373,True,100,95
+fixed 0.5,False,105,0.5,False,0,0.38322222222222224,True,100,100
+fixed 0.5,True,105,0.5,False,0,0.38322222222222224,True,100,100
+Youden (window-optimal),False,105,0.495404025580391,False,0,0.38322222222222224,True,100,100
+Youden (window-optimal),True,105,0.495404025580391,False,0,0.38322222222222224,True,100,100
+"conformal, delta = 0.10 (paper)",False,105,0.999,False,0,0.38322222222222224,True,100,88
+"conformal, delta = 0.10 (paper)",True,105,0.999,False,0,0.38322222222222224,True,100,88
+"conformal, delta = 0.50 (median)",False,105,0.44,False,1,0.38322222222222224,False,100,98
+"conformal, delta = 0.50 (median)",True,105,0.44,False,1,0.38322222222222224,False,100,98
+fixed 0.5,False,106,0.5,False,0,0.33755555555555555,True,100,99
+fixed 0.5,True,106,0.5,False,0,0.33755555555555555,True,100,99
+Youden (window-optimal),False,106,0.5252932901213727,False,0,0.33755555555555555,True,100,99
+Youden (window-optimal),True,106,0.5252932901213727,False,0,0.33755555555555555,True,100,99
+"conformal, delta = 0.10 (paper)",False,106,0.998,False,0,0.33755555555555555,True,100,96
+"conformal, delta = 0.10 (paper)",True,106,0.998,False,0,0.33755555555555555,True,100,96
+"conformal, delta = 0.50 (median)",False,106,0.43,False,0,0.33755555555555555,True,100,99
+"conformal, delta = 0.50 (median)",True,106,0.43,False,0,0.33755555555555555,True,100,99
+fixed 0.5,False,107,0.5,False,1,0.5219999999999999,False,117,117
+fixed 0.5,True,107,0.5,False,1,0.5219999999999999,False,117,117
+Youden (window-optimal),False,107,0.4821716686767282,False,2,0.5219999999999999,False,117,117
+Youden (window-optimal),True,107,0.4821716686767282,False,2,0.5219999999999999,False,117,117
+"conformal, delta = 0.10 (paper)",False,107,0.998,False,0,0.5219999999999999,True,117,114
+"conformal, delta = 0.10 (paper)",True,107,0.998,False,0,0.5219999999999999,True,117,114
+"conformal, delta = 0.50 (median)",False,107,0.44,False,2,0.5219999999999999,False,117,117
+"conformal, delta = 0.50 (median)",True,107,0.44,False,2,0.5219999999999999,False,117,117
+fixed 0.5,False,108,0.5,False,3,0.5243333333333333,False,119,117
+fixed 0.5,True,108,0.5,False,3,0.5243333333333333,False,119,117
+Youden (window-optimal),False,108,0.4991465119659708,False,3,0.5243333333333333,False,119,117
+Youden (window-optimal),True,108,0.4991465119659708,False,3,0.5243333333333333,False,119,117
+"conformal, delta = 0.10 (paper)",False,108,0.997,False,0,0.5243333333333333,True,119,99
+"conformal, delta = 0.10 (paper)",True,108,0.997,False,0,0.5243333333333333,True,119,99
+"conformal, delta = 0.50 (median)",False,108,0.45,False,3,0.5243333333333333,False,119,116
+"conformal, delta = 0.50 (median)",True,108,0.45,False,3,0.5243333333333333,False,119,116
+fixed 0.5,False,109,0.5,False,7,0.48355555555555557,False,118,117
+fixed 0.5,True,109,0.5,False,7,0.48355555555555557,False,118,117
+Youden (window-optimal),False,109,0.5386209192397461,False,6,0.48355555555555557,False,118,117
+Youden (window-optimal),True,109,0.5386209192397461,False,6,0.48355555555555557,False,118,117
+"conformal, delta = 0.10 (paper)",False,109,0.994,False,2,0.48355555555555557,False,118,117
+"conformal, delta = 0.10 (paper)",True,109,0.994,False,2,0.48355555555555557,False,118,117
+"conformal, delta = 0.50 (median)",False,109,0.47000000000000003,False,7,0.48355555555555557,False,118,117
+"conformal, delta = 0.50 (median)",True,109,0.47000000000000003,False,7,0.48355555555555557,False,118,117
+fixed 0.5,False,110,0.5,False,0,0.44233333333333336,True,120,118
+fixed 0.5,True,110,0.5,False,0,0.44233333333333336,True,120,118
+Youden (window-optimal),False,110,0.4916876938327699,False,0,0.44233333333333336,True,120,118
+Youden (window-optimal),True,110,0.4916876938327699,False,0,0.44233333333333336,True,120,118
+"conformal, delta = 0.10 (paper)",False,110,0.998,False,0,0.44233333333333336,True,120,116
+"conformal, delta = 0.10 (paper)",True,110,0.998,False,0,0.44233333333333336,True,120,116
+"conformal, delta = 0.50 (median)",False,110,0.44,False,0,0.44233333333333336,True,120,118
+"conformal, delta = 0.50 (median)",True,110,0.44,False,0,0.44233333333333336,True,120,118
+fixed 0.5,False,203,0.5,False,0,0.3482222222222222,True,100,100
+fixed 0.5,True,203,0.5,False,0,0.3482222222222222,True,100,100
+Youden (window-optimal),False,203,0.5034057984886418,False,0,0.3482222222222222,True,100,100
+Youden (window-optimal),True,203,0.5034057984886418,False,0,0.3482222222222222,True,100,100
+"conformal, delta = 0.10 (paper)",False,203,0.999,False,0,0.3482222222222222,True,100,94
+"conformal, delta = 0.10 (paper)",True,203,0.999,False,0,0.3482222222222222,True,100,94
+"conformal, delta = 0.50 (median)",False,203,0.4,False,1,0.3482222222222222,False,100,100
+"conformal, delta = 0.50 (median)",True,203,0.4,False,1,0.3482222222222222,False,100,100
+fixed 0.5,False,204,0.5,False,0,0.3586666666666667,True,100,100
+fixed 0.5,True,204,0.5,False,0,0.3586666666666667,True,100,100
+Youden (window-optimal),False,204,0.5080842662674077,False,0,0.3586666666666667,True,100,100
+Youden (window-optimal),True,204,0.5080842662674077,False,0,0.3586666666666667,True,100,100
+"conformal, delta = 0.10 (paper)",False,204,0.999,False,0,0.3586666666666667,True,100,91
+"conformal, delta = 0.10 (paper)",True,204,0.999,False,0,0.3586666666666667,True,100,91
+"conformal, delta = 0.50 (median)",False,204,0.45,False,0,0.3586666666666667,True,100,100
+"conformal, delta = 0.50 (median)",True,204,0.45,False,0,0.3586666666666667,True,100,100
+fixed 0.5,False,205,0.5,False,0,0.32499999999999996,True,111,111
+fixed 0.5,True,205,0.5,False,0,0.32499999999999996,True,111,111
+Youden (window-optimal),False,205,0.5458798411712888,False,0,0.32499999999999996,True,111,111
+Youden (window-optimal),True,205,0.5458798411712888,False,0,0.32499999999999996,True,111,111
+"conformal, delta = 0.10 (paper)",False,205,0.997,False,0,0.32499999999999996,True,111,108
+"conformal, delta = 0.10 (paper)",True,205,0.997,False,0,0.32499999999999996,True,111,108
+"conformal, delta = 0.50 (median)",False,205,0.41000000000000003,False,0,0.32499999999999996,True,111,110
+"conformal, delta = 0.50 (median)",True,205,0.4352464264329434,True,0,0.32499999999999996,True,111,110
+fixed 0.5,False,206,0.5,False,0,0.3396666666666667,True,100,97
+fixed 0.5,True,206,0.5,False,0,0.3396666666666667,True,100,97
+Youden (window-optimal),False,206,0.518790271069799,False,0,0.3396666666666667,True,100,97
+Youden (window-optimal),True,206,0.518790271069799,False,0,0.3396666666666667,True,100,97
+"conformal, delta = 0.10 (paper)",False,206,0.997,False,0,0.3396666666666667,True,100,92
+"conformal, delta = 0.10 (paper)",True,206,0.997,False,0,0.3396666666666667,True,100,92
+"conformal, delta = 0.50 (median)",False,206,0.42,False,0,0.3396666666666667,True,100,97
+"conformal, delta = 0.50 (median)",True,206,0.42,False,0,0.3396666666666667,True,100,97
+fixed 0.5,False,207,0.5,False,0,0.308,True,100,99
+fixed 0.5,True,207,0.5,False,0,0.308,True,100,99
+Youden (window-optimal),False,207,0.4992169098535538,False,0,0.308,True,100,99
+Youden (window-optimal),True,207,0.4992169098535538,False,0,0.308,True,100,99
+"conformal, delta = 0.10 (paper)",False,207,0.998,False,0,0.308,True,100,95
+"conformal, delta = 0.10 (paper)",True,207,0.998,False,0,0.308,True,100,95
+"conformal, delta = 0.50 (median)",False,207,0.42,False,0,0.308,True,100,97
+"conformal, delta = 0.50 (median)",True,207,0.42,False,0,0.308,True,100,97
+fixed 0.5,False,208,0.5,False,0,0.4225555555555556,True,118,118
+fixed 0.5,True,208,0.5,False,0,0.4225555555555556,True,118,118
+Youden (window-optimal),False,208,0.5107620294086702,False,0,0.4225555555555556,True,118,118
+Youden (window-optimal),True,208,0.5107620294086702,False,0,0.4225555555555556,True,118,118
+"conformal, delta = 0.10 (paper)",False,208,0.999,False,0,0.4225555555555556,True,118,111
+"conformal, delta = 0.10 (paper)",True,208,0.999,False,0,0.4225555555555556,True,118,111
+"conformal, delta = 0.50 (median)",False,208,0.45,False,1,0.4225555555555556,False,118,118
+"conformal, delta = 0.50 (median)",True,208,0.45,False,1,0.4225555555555556,False,118,118
+fixed 0.5,False,209,0.5,False,8,0.5137777777777778,False,122,120
+fixed 0.5,True,209,0.5,False,8,0.5137777777777778,False,122,120
+Youden (window-optimal),False,209,0.48147162298337237,False,9,0.5137777777777778,False,122,120
+Youden (window-optimal),True,209,0.48147162298337237,False,9,0.5137777777777778,False,122,120
+"conformal, delta = 0.10 (paper)",False,209,0.999,False,0,0.5137777777777778,True,122,116
+"conformal, delta = 0.10 (paper)",True,209,0.999,False,0,0.5137777777777778,True,122,116
+"conformal, delta = 0.50 (median)",False,209,0.45,False,10,0.5137777777777778,False,122,119
+"conformal, delta = 0.50 (median)",True,209,0.45,False,10,0.5137777777777778,False,122,119

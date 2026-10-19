@@ -1,0 +1,25 @@
+features (125773, 368) 1.2 min
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+split fold done 101
+split fold done 102
+split fold done 103
+split fold done 104
+split fold done 106
+split fold done 105
+split fold done 107
+split fold done 108
+split fold done 109
+split fold done 110
+split fold done 203
+split fold done 204
+split fold done 205
+split fold done 206
+[Parallel(n_jobs=2)]: Done  14 tasks      | elapsed: 22.4min
+split fold done 207
+split fold done 208
+split fold done 209
+[Parallel(n_jobs=2)]: Done  17 out of  17 | elapsed: 27.7min finished
+                                 policy  budget_per_h  people  covered  coverage  pooled_fa_per_h  total_fa  adl_hours  people_with_fa  fall_sensitivity  median_threshold  n_cal  quantile_index
+split conformal (exact exchangeability)           0.0    17.0     15.0     0.882            1.105       9.0      8.148             2.0             0.945             0.994   10.0            10.0
+split conformal (exact exchangeability)           2.0    17.0     16.0     0.941            1.350      11.0      8.148             4.0             0.980             0.978   10.0            10.0
+elapsed 29.0 min

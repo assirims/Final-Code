@@ -1,0 +1,581 @@
+service,policy,budget_per_h,subject,fa,hours,fa_per_h,within_budget
+FoG,Youden (window-optimal),2.0,1,120,0.5252777777777777,228.45055526176628,False
+FoG,Youden (window-optimal),2.0,2,29,0.3913888888888889,74.09510290986515,False
+FoG,Youden (window-optimal),2.0,3,33,0.555,59.45945945945945,False
+FoG,Youden (window-optimal),2.0,4,36,0.5733333333333334,62.7906976744186,False
+FoG,Youden (window-optimal),2.0,5,35,0.5755555555555556,60.81081081081081,False
+FoG,Youden (window-optimal),2.0,6,20,0.5486111111111112,36.45569620253164,False
+FoG,Youden (window-optimal),2.0,7,70,0.4455555555555555,157.1072319201995,False
+FoG,Youden (window-optimal),2.0,8,45,0.2105555555555555,213.72031662269129,False
+FoG,Youden (window-optimal),2.0,9,26,0.4791666666666667,54.26086956521739,False
+FoG,Youden (window-optimal),2.0,10,32,0.6177777777777778,51.79856115107914,False
+FoG,Youden (window-optimal),4.0,1,120,0.5252777777777777,228.45055526176628,False
+FoG,Youden (window-optimal),4.0,2,29,0.3913888888888889,74.09510290986515,False
+FoG,Youden (window-optimal),4.0,3,33,0.555,59.45945945945945,False
+FoG,Youden (window-optimal),4.0,4,36,0.5733333333333334,62.7906976744186,False
+FoG,Youden (window-optimal),4.0,5,35,0.5755555555555556,60.81081081081081,False
+FoG,Youden (window-optimal),4.0,6,20,0.5486111111111112,36.45569620253164,False
+FoG,Youden (window-optimal),4.0,7,70,0.4455555555555555,157.1072319201995,False
+FoG,Youden (window-optimal),4.0,8,45,0.2105555555555555,213.72031662269129,False
+FoG,Youden (window-optimal),4.0,9,26,0.4791666666666667,54.26086956521739,False
+FoG,Youden (window-optimal),4.0,10,32,0.6177777777777778,51.79856115107914,False
+FoG,Youden (window-optimal),8.0,1,120,0.5252777777777777,228.45055526176628,False
+FoG,Youden (window-optimal),8.0,2,29,0.3913888888888889,74.09510290986515,False
+FoG,Youden (window-optimal),8.0,3,33,0.555,59.45945945945945,False
+FoG,Youden (window-optimal),8.0,4,36,0.5733333333333334,62.7906976744186,False
+FoG,Youden (window-optimal),8.0,5,35,0.5755555555555556,60.81081081081081,False
+FoG,Youden (window-optimal),8.0,6,20,0.5486111111111112,36.45569620253164,False
+FoG,Youden (window-optimal),8.0,7,70,0.4455555555555555,157.1072319201995,False
+FoG,Youden (window-optimal),8.0,8,45,0.2105555555555555,213.72031662269129,False
+FoG,Youden (window-optimal),8.0,9,26,0.4791666666666667,54.26086956521739,False
+FoG,Youden (window-optimal),8.0,10,32,0.6177777777777778,51.79856115107914,False
+FoG,Youden (window-optimal),16.0,1,120,0.5252777777777777,228.45055526176628,False
+FoG,Youden (window-optimal),16.0,2,29,0.3913888888888889,74.09510290986515,False
+FoG,Youden (window-optimal),16.0,3,33,0.555,59.45945945945945,False
+FoG,Youden (window-optimal),16.0,4,36,0.5733333333333334,62.7906976744186,False
+FoG,Youden (window-optimal),16.0,5,35,0.5755555555555556,60.81081081081081,False
+FoG,Youden (window-optimal),16.0,6,20,0.5486111111111112,36.45569620253164,False
+FoG,Youden (window-optimal),16.0,7,70,0.4455555555555555,157.1072319201995,False
+FoG,Youden (window-optimal),16.0,8,45,0.2105555555555555,213.72031662269129,False
+FoG,Youden (window-optimal),16.0,9,26,0.4791666666666667,54.26086956521739,False
+FoG,Youden (window-optimal),16.0,10,32,0.6177777777777778,51.79856115107914,False
+FoG,Youden (window-optimal),32.0,1,120,0.5252777777777777,228.45055526176628,False
+FoG,Youden (window-optimal),32.0,2,29,0.3913888888888889,74.09510290986515,False
+FoG,Youden (window-optimal),32.0,3,33,0.555,59.45945945945945,False
+FoG,Youden (window-optimal),32.0,4,36,0.5733333333333334,62.7906976744186,False
+FoG,Youden (window-optimal),32.0,5,35,0.5755555555555556,60.81081081081081,False
+FoG,Youden (window-optimal),32.0,6,20,0.5486111111111112,36.45569620253164,False
+FoG,Youden (window-optimal),32.0,7,70,0.4455555555555555,157.1072319201995,False
+FoG,Youden (window-optimal),32.0,8,45,0.2105555555555555,213.72031662269129,False
+FoG,Youden (window-optimal),32.0,9,26,0.4791666666666667,54.26086956521739,False
+FoG,Youden (window-optimal),32.0,10,32,0.6177777777777778,51.79856115107914,False
+FoG,conformal (proposed),2.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,conformal (proposed),2.0,2,0,0.3913888888888889,0.0,True
+FoG,conformal (proposed),2.0,3,9,0.555,16.216216216216214,False
+FoG,conformal (proposed),2.0,4,0,0.5733333333333334,0.0,True
+FoG,conformal (proposed),2.0,5,0,0.5755555555555556,0.0,True
+FoG,conformal (proposed),2.0,6,0,0.5486111111111112,0.0,True
+FoG,conformal (proposed),2.0,7,0,0.4455555555555555,0.0,True
+FoG,conformal (proposed),2.0,8,0,0.2105555555555555,0.0,True
+FoG,conformal (proposed),2.0,9,0,0.4791666666666667,0.0,True
+FoG,conformal (proposed),2.0,10,0,0.6177777777777778,0.0,True
+FoG,conformal (proposed),4.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,conformal (proposed),4.0,2,0,0.3913888888888889,0.0,True
+FoG,conformal (proposed),4.0,3,8,0.555,14.414414414414413,False
+FoG,conformal (proposed),4.0,4,0,0.5733333333333334,0.0,True
+FoG,conformal (proposed),4.0,5,0,0.5755555555555556,0.0,True
+FoG,conformal (proposed),4.0,6,0,0.5486111111111112,0.0,True
+FoG,conformal (proposed),4.0,7,0,0.4455555555555555,0.0,True
+FoG,conformal (proposed),4.0,8,0,0.2105555555555555,0.0,True
+FoG,conformal (proposed),4.0,9,0,0.4791666666666667,0.0,True
+FoG,conformal (proposed),4.0,10,0,0.6177777777777778,0.0,True
+FoG,conformal (proposed),8.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,conformal (proposed),8.0,2,0,0.3913888888888889,0.0,True
+FoG,conformal (proposed),8.0,3,11,0.555,19.819819819819816,False
+FoG,conformal (proposed),8.0,4,0,0.5733333333333334,0.0,True
+FoG,conformal (proposed),8.0,5,0,0.5755555555555556,0.0,True
+FoG,conformal (proposed),8.0,6,0,0.5486111111111112,0.0,True
+FoG,conformal (proposed),8.0,7,0,0.4455555555555555,0.0,True
+FoG,conformal (proposed),8.0,8,0,0.2105555555555555,0.0,True
+FoG,conformal (proposed),8.0,9,0,0.4791666666666667,0.0,True
+FoG,conformal (proposed),8.0,10,0,0.6177777777777778,0.0,True
+FoG,conformal (proposed),16.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,conformal (proposed),16.0,2,0,0.3913888888888889,0.0,True
+FoG,conformal (proposed),16.0,3,11,0.555,19.819819819819816,False
+FoG,conformal (proposed),16.0,4,0,0.5733333333333334,0.0,True
+FoG,conformal (proposed),16.0,5,4,0.5755555555555556,6.949806949806949,True
+FoG,conformal (proposed),16.0,6,0,0.5486111111111112,0.0,True
+FoG,conformal (proposed),16.0,7,3,0.4455555555555555,6.733167082294265,True
+FoG,conformal (proposed),16.0,8,1,0.2105555555555555,4.74934036939314,True
+FoG,conformal (proposed),16.0,9,0,0.4791666666666667,0.0,True
+FoG,conformal (proposed),16.0,10,0,0.6177777777777778,0.0,True
+FoG,conformal (proposed),32.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,conformal (proposed),32.0,2,0,0.3913888888888889,0.0,True
+FoG,conformal (proposed),32.0,3,12,0.555,21.62162162162162,True
+FoG,conformal (proposed),32.0,4,0,0.5733333333333334,0.0,True
+FoG,conformal (proposed),32.0,5,5,0.5755555555555556,8.687258687258687,True
+FoG,conformal (proposed),32.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,conformal (proposed),32.0,7,3,0.4455555555555555,6.733167082294265,True
+FoG,conformal (proposed),32.0,8,10,0.2105555555555555,47.4934036939314,False
+FoG,conformal (proposed),32.0,9,0,0.4791666666666667,0.0,True
+FoG,conformal (proposed),32.0,10,0,0.6177777777777778,0.0,True
+FoG,fixed 0.5,2.0,1,27,0.5252777777777777,51.401374933897415,False
+FoG,fixed 0.5,2.0,2,0,0.3913888888888889,0.0,True
+FoG,fixed 0.5,2.0,3,13,0.555,23.423423423423426,False
+FoG,fixed 0.5,2.0,4,0,0.5733333333333334,0.0,True
+FoG,fixed 0.5,2.0,5,4,0.5755555555555556,6.949806949806949,False
+FoG,fixed 0.5,2.0,6,2,0.5486111111111112,3.645569620253165,False
+FoG,fixed 0.5,2.0,7,8,0.4455555555555555,17.955112219451372,False
+FoG,fixed 0.5,2.0,8,8,0.2105555555555555,37.99472295514512,False
+FoG,fixed 0.5,2.0,9,0,0.4791666666666667,0.0,True
+FoG,fixed 0.5,2.0,10,0,0.6177777777777778,0.0,True
+FoG,fixed 0.5,4.0,1,27,0.5252777777777777,51.401374933897415,False
+FoG,fixed 0.5,4.0,2,0,0.3913888888888889,0.0,True
+FoG,fixed 0.5,4.0,3,13,0.555,23.423423423423426,False
+FoG,fixed 0.5,4.0,4,0,0.5733333333333334,0.0,True
+FoG,fixed 0.5,4.0,5,4,0.5755555555555556,6.949806949806949,False
+FoG,fixed 0.5,4.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,fixed 0.5,4.0,7,8,0.4455555555555555,17.955112219451372,False
+FoG,fixed 0.5,4.0,8,8,0.2105555555555555,37.99472295514512,False
+FoG,fixed 0.5,4.0,9,0,0.4791666666666667,0.0,True
+FoG,fixed 0.5,4.0,10,0,0.6177777777777778,0.0,True
+FoG,fixed 0.5,8.0,1,27,0.5252777777777777,51.401374933897415,False
+FoG,fixed 0.5,8.0,2,0,0.3913888888888889,0.0,True
+FoG,fixed 0.5,8.0,3,13,0.555,23.423423423423426,False
+FoG,fixed 0.5,8.0,4,0,0.5733333333333334,0.0,True
+FoG,fixed 0.5,8.0,5,4,0.5755555555555556,6.949806949806949,True
+FoG,fixed 0.5,8.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,fixed 0.5,8.0,7,8,0.4455555555555555,17.955112219451372,False
+FoG,fixed 0.5,8.0,8,8,0.2105555555555555,37.99472295514512,False
+FoG,fixed 0.5,8.0,9,0,0.4791666666666667,0.0,True
+FoG,fixed 0.5,8.0,10,0,0.6177777777777778,0.0,True
+FoG,fixed 0.5,16.0,1,27,0.5252777777777777,51.401374933897415,False
+FoG,fixed 0.5,16.0,2,0,0.3913888888888889,0.0,True
+FoG,fixed 0.5,16.0,3,13,0.555,23.423423423423426,False
+FoG,fixed 0.5,16.0,4,0,0.5733333333333334,0.0,True
+FoG,fixed 0.5,16.0,5,4,0.5755555555555556,6.949806949806949,True
+FoG,fixed 0.5,16.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,fixed 0.5,16.0,7,8,0.4455555555555555,17.955112219451372,False
+FoG,fixed 0.5,16.0,8,8,0.2105555555555555,37.99472295514512,False
+FoG,fixed 0.5,16.0,9,0,0.4791666666666667,0.0,True
+FoG,fixed 0.5,16.0,10,0,0.6177777777777778,0.0,True
+FoG,fixed 0.5,32.0,1,27,0.5252777777777777,51.401374933897415,False
+FoG,fixed 0.5,32.0,2,0,0.3913888888888889,0.0,True
+FoG,fixed 0.5,32.0,3,13,0.555,23.423423423423426,True
+FoG,fixed 0.5,32.0,4,0,0.5733333333333334,0.0,True
+FoG,fixed 0.5,32.0,5,4,0.5755555555555556,6.949806949806949,True
+FoG,fixed 0.5,32.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,fixed 0.5,32.0,7,8,0.4455555555555555,17.955112219451372,True
+FoG,fixed 0.5,32.0,8,8,0.2105555555555555,37.99472295514512,False
+FoG,fixed 0.5,32.0,9,0,0.4791666666666667,0.0,True
+FoG,fixed 0.5,32.0,10,0,0.6177777777777778,0.0,True
+FoG,naive pooled calibration,2.0,1,1,0.5252777777777777,1.9037546271813857,True
+FoG,naive pooled calibration,2.0,2,0,0.3913888888888889,0.0,True
+FoG,naive pooled calibration,2.0,3,12,0.555,21.62162162162162,False
+FoG,naive pooled calibration,2.0,4,0,0.5733333333333334,0.0,True
+FoG,naive pooled calibration,2.0,5,1,0.5755555555555556,1.7374517374517373,True
+FoG,naive pooled calibration,2.0,6,0,0.5486111111111112,0.0,True
+FoG,naive pooled calibration,2.0,7,0,0.4455555555555555,0.0,True
+FoG,naive pooled calibration,2.0,8,0,0.2105555555555555,0.0,True
+FoG,naive pooled calibration,2.0,9,0,0.4791666666666667,0.0,True
+FoG,naive pooled calibration,2.0,10,0,0.6177777777777778,0.0,True
+FoG,naive pooled calibration,4.0,1,2,0.5252777777777777,3.8075092543627713,True
+FoG,naive pooled calibration,4.0,2,0,0.3913888888888889,0.0,True
+FoG,naive pooled calibration,4.0,3,12,0.555,21.62162162162162,False
+FoG,naive pooled calibration,4.0,4,0,0.5733333333333334,0.0,True
+FoG,naive pooled calibration,4.0,5,4,0.5755555555555556,6.949806949806949,False
+FoG,naive pooled calibration,4.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,naive pooled calibration,4.0,7,2,0.4455555555555555,4.488778054862843,False
+FoG,naive pooled calibration,4.0,8,2,0.2105555555555555,9.49868073878628,False
+FoG,naive pooled calibration,4.0,9,0,0.4791666666666667,0.0,True
+FoG,naive pooled calibration,4.0,10,0,0.6177777777777778,0.0,True
+FoG,naive pooled calibration,8.0,1,16,0.5252777777777777,30.46007403490217,False
+FoG,naive pooled calibration,8.0,2,0,0.3913888888888889,0.0,True
+FoG,naive pooled calibration,8.0,3,12,0.555,21.62162162162162,False
+FoG,naive pooled calibration,8.0,4,1,0.5733333333333334,1.744186046511628,True
+FoG,naive pooled calibration,8.0,5,5,0.5755555555555556,8.687258687258687,False
+FoG,naive pooled calibration,8.0,6,2,0.5486111111111112,3.645569620253165,True
+FoG,naive pooled calibration,8.0,7,5,0.4455555555555555,11.221945137157109,False
+FoG,naive pooled calibration,8.0,8,9,0.2105555555555555,42.74406332453826,False
+FoG,naive pooled calibration,8.0,9,0,0.4791666666666667,0.0,True
+FoG,naive pooled calibration,8.0,10,0,0.6177777777777778,0.0,True
+FoG,naive pooled calibration,16.0,1,35,0.5252777777777777,66.6314119513485,False
+FoG,naive pooled calibration,16.0,2,0,0.3913888888888889,0.0,True
+FoG,naive pooled calibration,16.0,3,13,0.555,23.423423423423426,False
+FoG,naive pooled calibration,16.0,4,1,0.5733333333333334,1.744186046511628,True
+FoG,naive pooled calibration,16.0,5,6,0.5755555555555556,10.424710424710424,True
+FoG,naive pooled calibration,16.0,6,3,0.5486111111111112,5.468354430379747,True
+FoG,naive pooled calibration,16.0,7,8,0.4455555555555555,17.955112219451372,False
+FoG,naive pooled calibration,16.0,8,11,0.2105555555555555,52.24274406332454,False
+FoG,naive pooled calibration,16.0,9,2,0.4791666666666667,4.173913043478261,True
+FoG,naive pooled calibration,16.0,10,0,0.6177777777777778,0.0,True
+FoG,naive pooled calibration,32.0,1,79,0.5252777777777777,150.39661554732947,False
+FoG,naive pooled calibration,32.0,2,1,0.3913888888888889,2.55500354861604,True
+FoG,naive pooled calibration,32.0,3,14,0.555,25.225225225225223,True
+FoG,naive pooled calibration,32.0,4,4,0.5733333333333334,6.976744186046512,True
+FoG,naive pooled calibration,32.0,5,12,0.5755555555555556,20.84942084942085,True
+FoG,naive pooled calibration,32.0,6,6,0.5486111111111112,10.936708860759492,True
+FoG,naive pooled calibration,32.0,7,12,0.4455555555555555,26.93266832917706,True
+FoG,naive pooled calibration,32.0,8,20,0.2105555555555555,94.9868073878628,False
+FoG,naive pooled calibration,32.0,9,6,0.4791666666666667,12.52173913043478,True
+FoG,naive pooled calibration,32.0,10,4,0.6177777777777778,6.474820143884893,True
+Falls,Youden (window-optimal),0.0,101,0,0.4202222222222222,0.0,True
+Falls,Youden (window-optimal),0.0,102,0,0.2568888888888889,0.0,True
+Falls,Youden (window-optimal),0.0,103,0,0.3294444444444444,0.0,True
+Falls,Youden (window-optimal),0.0,104,0,0.373,0.0,True
+Falls,Youden (window-optimal),0.0,105,0,0.3832222222222222,0.0,True
+Falls,Youden (window-optimal),0.0,106,0,0.3375555555555555,0.0,True
+Falls,Youden (window-optimal),0.0,107,2,0.5219999999999999,3.8314176245210736,False
+Falls,Youden (window-optimal),0.0,108,3,0.5243333333333333,5.72155117609663,False
+Falls,Youden (window-optimal),0.0,109,6,0.4835555555555555,12.408088235294118,False
+Falls,Youden (window-optimal),0.0,110,0,0.4423333333333333,0.0,True
+Falls,Youden (window-optimal),0.0,203,0,0.3482222222222222,0.0,True
+Falls,Youden (window-optimal),0.0,204,0,0.3586666666666667,0.0,True
+Falls,Youden (window-optimal),0.0,205,0,0.3249999999999999,0.0,True
+Falls,Youden (window-optimal),0.0,206,0,0.3396666666666667,0.0,True
+Falls,Youden (window-optimal),0.0,207,0,0.308,0.0,True
+Falls,Youden (window-optimal),0.0,208,0,0.4225555555555556,0.0,True
+Falls,Youden (window-optimal),0.0,209,9,0.5137777777777778,17.517301038062282,False
+Falls,Youden (window-optimal),2.0,101,0,0.4202222222222222,0.0,True
+Falls,Youden (window-optimal),2.0,102,0,0.2568888888888889,0.0,True
+Falls,Youden (window-optimal),2.0,103,0,0.3294444444444444,0.0,True
+Falls,Youden (window-optimal),2.0,104,0,0.373,0.0,True
+Falls,Youden (window-optimal),2.0,105,0,0.3832222222222222,0.0,True
+Falls,Youden (window-optimal),2.0,106,0,0.3375555555555555,0.0,True
+Falls,Youden (window-optimal),2.0,107,2,0.5219999999999999,3.8314176245210736,False
+Falls,Youden (window-optimal),2.0,108,3,0.5243333333333333,5.72155117609663,False
+Falls,Youden (window-optimal),2.0,109,6,0.4835555555555555,12.408088235294118,False
+Falls,Youden (window-optimal),2.0,110,0,0.4423333333333333,0.0,True
+Falls,Youden (window-optimal),2.0,203,0,0.3482222222222222,0.0,True
+Falls,Youden (window-optimal),2.0,204,0,0.3586666666666667,0.0,True
+Falls,Youden (window-optimal),2.0,205,0,0.3249999999999999,0.0,True
+Falls,Youden (window-optimal),2.0,206,0,0.3396666666666667,0.0,True
+Falls,Youden (window-optimal),2.0,207,0,0.308,0.0,True
+Falls,Youden (window-optimal),2.0,208,0,0.4225555555555556,0.0,True
+Falls,Youden (window-optimal),2.0,209,9,0.5137777777777778,17.517301038062282,False
+Falls,Youden (window-optimal),6.0,101,0,0.4202222222222222,0.0,True
+Falls,Youden (window-optimal),6.0,102,0,0.2568888888888889,0.0,True
+Falls,Youden (window-optimal),6.0,103,0,0.3294444444444444,0.0,True
+Falls,Youden (window-optimal),6.0,104,0,0.373,0.0,True
+Falls,Youden (window-optimal),6.0,105,0,0.3832222222222222,0.0,True
+Falls,Youden (window-optimal),6.0,106,0,0.3375555555555555,0.0,True
+Falls,Youden (window-optimal),6.0,107,2,0.5219999999999999,3.8314176245210736,True
+Falls,Youden (window-optimal),6.0,108,3,0.5243333333333333,5.72155117609663,True
+Falls,Youden (window-optimal),6.0,109,6,0.4835555555555555,12.408088235294118,False
+Falls,Youden (window-optimal),6.0,110,0,0.4423333333333333,0.0,True
+Falls,Youden (window-optimal),6.0,203,0,0.3482222222222222,0.0,True
+Falls,Youden (window-optimal),6.0,204,0,0.3586666666666667,0.0,True
+Falls,Youden (window-optimal),6.0,205,0,0.3249999999999999,0.0,True
+Falls,Youden (window-optimal),6.0,206,0,0.3396666666666667,0.0,True
+Falls,Youden (window-optimal),6.0,207,0,0.308,0.0,True
+Falls,Youden (window-optimal),6.0,208,0,0.4225555555555556,0.0,True
+Falls,Youden (window-optimal),6.0,209,9,0.5137777777777778,17.517301038062282,False
+Falls,conformal (proposed),0.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal (proposed),0.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal (proposed),0.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal (proposed),0.0,104,0,0.373,0.0,True
+Falls,conformal (proposed),0.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal (proposed),0.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal (proposed),0.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal (proposed),0.0,108,0,0.5243333333333333,0.0,True
+Falls,conformal (proposed),0.0,109,2,0.4835555555555555,4.136029411764706,False
+Falls,conformal (proposed),0.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal (proposed),0.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal (proposed),0.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal (proposed),0.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal (proposed),0.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal (proposed),0.0,207,0,0.308,0.0,True
+Falls,conformal (proposed),0.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal (proposed),0.0,209,0,0.5137777777777778,0.0,True
+Falls,conformal (proposed),2.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal (proposed),2.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal (proposed),2.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal (proposed),2.0,104,0,0.373,0.0,True
+Falls,conformal (proposed),2.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal (proposed),2.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal (proposed),2.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal (proposed),2.0,108,0,0.5243333333333333,0.0,True
+Falls,conformal (proposed),2.0,109,4,0.4835555555555555,8.272058823529411,False
+Falls,conformal (proposed),2.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal (proposed),2.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal (proposed),2.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal (proposed),2.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal (proposed),2.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal (proposed),2.0,207,0,0.308,0.0,True
+Falls,conformal (proposed),2.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal (proposed),2.0,209,0,0.5137777777777778,0.0,True
+Falls,conformal (proposed),6.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal (proposed),6.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal (proposed),6.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal (proposed),6.0,104,0,0.373,0.0,True
+Falls,conformal (proposed),6.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal (proposed),6.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal (proposed),6.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal (proposed),6.0,108,1,0.5243333333333333,1.907183725365544,True
+Falls,conformal (proposed),6.0,109,4,0.4835555555555555,8.272058823529411,False
+Falls,conformal (proposed),6.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal (proposed),6.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal (proposed),6.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal (proposed),6.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal (proposed),6.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal (proposed),6.0,207,0,0.308,0.0,True
+Falls,conformal (proposed),6.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal (proposed),6.0,209,1,0.5137777777777778,1.9463667820069204,True
+Falls,conformal + personal ADL margin,0.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal + personal ADL margin,0.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal + personal ADL margin,0.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal + personal ADL margin,0.0,104,0,0.373,0.0,True
+Falls,conformal + personal ADL margin,0.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal + personal ADL margin,0.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal + personal ADL margin,0.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal + personal ADL margin,0.0,108,0,0.5243333333333333,0.0,True
+Falls,conformal + personal ADL margin,0.0,109,2,0.4835555555555555,4.136029411764706,False
+Falls,conformal + personal ADL margin,0.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal + personal ADL margin,0.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal + personal ADL margin,0.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal + personal ADL margin,0.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal + personal ADL margin,0.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal + personal ADL margin,0.0,207,0,0.308,0.0,True
+Falls,conformal + personal ADL margin,0.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal + personal ADL margin,0.0,209,0,0.5137777777777778,0.0,True
+Falls,conformal + personal ADL margin,2.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal + personal ADL margin,2.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal + personal ADL margin,2.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal + personal ADL margin,2.0,104,0,0.373,0.0,True
+Falls,conformal + personal ADL margin,2.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal + personal ADL margin,2.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal + personal ADL margin,2.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal + personal ADL margin,2.0,108,0,0.5243333333333333,0.0,True
+Falls,conformal + personal ADL margin,2.0,109,4,0.4835555555555555,8.272058823529411,False
+Falls,conformal + personal ADL margin,2.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal + personal ADL margin,2.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal + personal ADL margin,2.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal + personal ADL margin,2.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal + personal ADL margin,2.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal + personal ADL margin,2.0,207,0,0.308,0.0,True
+Falls,conformal + personal ADL margin,2.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal + personal ADL margin,2.0,209,0,0.5137777777777778,0.0,True
+Falls,conformal + personal ADL margin,6.0,101,0,0.4202222222222222,0.0,True
+Falls,conformal + personal ADL margin,6.0,102,0,0.2568888888888889,0.0,True
+Falls,conformal + personal ADL margin,6.0,103,0,0.3294444444444444,0.0,True
+Falls,conformal + personal ADL margin,6.0,104,0,0.373,0.0,True
+Falls,conformal + personal ADL margin,6.0,105,0,0.3832222222222222,0.0,True
+Falls,conformal + personal ADL margin,6.0,106,0,0.3375555555555555,0.0,True
+Falls,conformal + personal ADL margin,6.0,107,0,0.5219999999999999,0.0,True
+Falls,conformal + personal ADL margin,6.0,108,1,0.5243333333333333,1.907183725365544,True
+Falls,conformal + personal ADL margin,6.0,109,4,0.4835555555555555,8.272058823529411,False
+Falls,conformal + personal ADL margin,6.0,110,0,0.4423333333333333,0.0,True
+Falls,conformal + personal ADL margin,6.0,203,0,0.3482222222222222,0.0,True
+Falls,conformal + personal ADL margin,6.0,204,0,0.3586666666666667,0.0,True
+Falls,conformal + personal ADL margin,6.0,205,0,0.3249999999999999,0.0,True
+Falls,conformal + personal ADL margin,6.0,206,0,0.3396666666666667,0.0,True
+Falls,conformal + personal ADL margin,6.0,207,0,0.308,0.0,True
+Falls,conformal + personal ADL margin,6.0,208,0,0.4225555555555556,0.0,True
+Falls,conformal + personal ADL margin,6.0,209,1,0.5137777777777778,1.9463667820069204,True
+Falls,fixed 0.5,0.0,101,0,0.4202222222222222,0.0,True
+Falls,fixed 0.5,0.0,102,0,0.2568888888888889,0.0,True
+Falls,fixed 0.5,0.0,103,0,0.3294444444444444,0.0,True
+Falls,fixed 0.5,0.0,104,0,0.373,0.0,True
+Falls,fixed 0.5,0.0,105,0,0.3832222222222222,0.0,True
+Falls,fixed 0.5,0.0,106,0,0.3375555555555555,0.0,True
+Falls,fixed 0.5,0.0,107,1,0.5219999999999999,1.9157088122605368,False
+Falls,fixed 0.5,0.0,108,3,0.5243333333333333,5.72155117609663,False
+Falls,fixed 0.5,0.0,109,7,0.4835555555555555,14.47610294117647,False
+Falls,fixed 0.5,0.0,110,0,0.4423333333333333,0.0,True
+Falls,fixed 0.5,0.0,203,0,0.3482222222222222,0.0,True
+Falls,fixed 0.5,0.0,204,0,0.3586666666666667,0.0,True
+Falls,fixed 0.5,0.0,205,0,0.3249999999999999,0.0,True
+Falls,fixed 0.5,0.0,206,0,0.3396666666666667,0.0,True
+Falls,fixed 0.5,0.0,207,0,0.308,0.0,True
+Falls,fixed 0.5,0.0,208,0,0.4225555555555556,0.0,True
+Falls,fixed 0.5,0.0,209,8,0.5137777777777778,15.570934256055365,False
+Falls,fixed 0.5,2.0,101,0,0.4202222222222222,0.0,True
+Falls,fixed 0.5,2.0,102,0,0.2568888888888889,0.0,True
+Falls,fixed 0.5,2.0,103,0,0.3294444444444444,0.0,True
+Falls,fixed 0.5,2.0,104,0,0.373,0.0,True
+Falls,fixed 0.5,2.0,105,0,0.3832222222222222,0.0,True
+Falls,fixed 0.5,2.0,106,0,0.3375555555555555,0.0,True
+Falls,fixed 0.5,2.0,107,1,0.5219999999999999,1.9157088122605368,True
+Falls,fixed 0.5,2.0,108,3,0.5243333333333333,5.72155117609663,False
+Falls,fixed 0.5,2.0,109,7,0.4835555555555555,14.47610294117647,False
+Falls,fixed 0.5,2.0,110,0,0.4423333333333333,0.0,True
+Falls,fixed 0.5,2.0,203,0,0.3482222222222222,0.0,True
+Falls,fixed 0.5,2.0,204,0,0.3586666666666667,0.0,True
+Falls,fixed 0.5,2.0,205,0,0.3249999999999999,0.0,True
+Falls,fixed 0.5,2.0,206,0,0.3396666666666667,0.0,True
+Falls,fixed 0.5,2.0,207,0,0.308,0.0,True
+Falls,fixed 0.5,2.0,208,0,0.4225555555555556,0.0,True
+Falls,fixed 0.5,2.0,209,8,0.5137777777777778,15.570934256055365,False
+Falls,fixed 0.5,6.0,101,0,0.4202222222222222,0.0,True
+Falls,fixed 0.5,6.0,102,0,0.2568888888888889,0.0,True
+Falls,fixed 0.5,6.0,103,0,0.3294444444444444,0.0,True
+Falls,fixed 0.5,6.0,104,0,0.373,0.0,True
+Falls,fixed 0.5,6.0,105,0,0.3832222222222222,0.0,True
+Falls,fixed 0.5,6.0,106,0,0.3375555555555555,0.0,True
+Falls,fixed 0.5,6.0,107,1,0.5219999999999999,1.9157088122605368,True
+Falls,fixed 0.5,6.0,108,3,0.5243333333333333,5.72155117609663,True
+Falls,fixed 0.5,6.0,109,7,0.4835555555555555,14.47610294117647,False
+Falls,fixed 0.5,6.0,110,0,0.4423333333333333,0.0,True
+Falls,fixed 0.5,6.0,203,0,0.3482222222222222,0.0,True
+Falls,fixed 0.5,6.0,204,0,0.3586666666666667,0.0,True
+Falls,fixed 0.5,6.0,205,0,0.3249999999999999,0.0,True
+Falls,fixed 0.5,6.0,206,0,0.3396666666666667,0.0,True
+Falls,fixed 0.5,6.0,207,0,0.308,0.0,True
+Falls,fixed 0.5,6.0,208,0,0.4225555555555556,0.0,True
+Falls,fixed 0.5,6.0,209,8,0.5137777777777778,15.570934256055365,False
+Falls (split conformal),split conformal (exact exchangeability),0.0,101,0,0.5047777777777778,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,102,0,0.3402222222222222,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,103,0,0.4153333333333333,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,104,0,0.4607777777777778,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,105,0,0.4692222222222222,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,106,0,0.4208888888888888,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,107,0,0.6104444444444445,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,108,0,0.6091111111111112,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,109,1,0.5693333333333334,1.756440281030445,False
+Falls (split conformal),split conformal (exact exchangeability),0.0,110,0,0.527888888888889,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,203,0,0.4334444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,204,0,0.4469999999999999,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,205,0,0.4104444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,206,0,0.4264444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,207,0,0.3936666666666667,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,208,0,0.5103333333333333,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),0.0,209,8,0.5983333333333334,13.370473537604456,False
+Falls (split conformal),split conformal (exact exchangeability),2.0,101,0,0.5047777777777778,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,102,0,0.3402222222222222,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,103,0,0.4153333333333333,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,104,0,0.4607777777777778,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,105,0,0.4692222222222222,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,106,0,0.4208888888888888,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,107,1,0.6104444444444445,1.6381507098653076,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,108,1,0.6091111111111112,1.6417365924844949,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,109,1,0.5693333333333334,1.756440281030445,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,110,0,0.527888888888889,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,203,0,0.4334444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,204,0,0.4469999999999999,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,205,0,0.4104444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,206,0,0.4264444444444444,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,207,0,0.3936666666666667,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,208,0,0.5103333333333333,0.0,True
+Falls (split conformal),split conformal (exact exchangeability),2.0,209,8,0.5983333333333334,13.370473537604456,False
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,501,0,0.577,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,502,0,0.7297777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,503,0,0.6466666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,504,0,0.8374444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,505,0,0.4833333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,506,0,0.6816666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,507,0,0.6673333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,508,1,0.7248888888888889,1.3795217657878602,False
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,509,0,0.6764444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,510,0,0.6781111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,511,0,0.7114444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,512,0,0.6627777777777778,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,513,0,0.6866666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,514,0,0.5638888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,515,0,0.8527777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,516,0,0.7681111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,517,0,0.8168888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",0.0,518,0,0.7872222222222223,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,501,0,0.577,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,502,0,0.7297777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,503,0,0.6466666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,504,0,0.8374444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,505,0,0.4833333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,506,0,0.6816666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,507,0,0.6673333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,508,1,0.7248888888888889,1.3795217657878602,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,509,0,0.6764444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,510,0,0.6781111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,511,0,0.7114444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,512,0,0.6627777777777778,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,513,0,0.6866666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,514,0,0.5638888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,515,0,0.8527777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,516,0,0.7681111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,517,0,0.8168888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)","older adults, leave-one-out (17)",2.0,518,0,0.7872222222222223,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,501,0,0.577,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,502,0,0.7297777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,503,0,0.6466666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,504,0,0.8374444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,505,0,0.4833333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,506,0,0.6816666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,507,0,0.6673333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,508,0,0.7248888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,509,0,0.6764444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,510,0,0.6781111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,511,0,0.7114444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,512,0,0.6627777777777778,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,513,0,0.6866666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,514,0,0.5638888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,515,0,0.8527777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,516,0,0.7681111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,517,0,0.8168888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),0.0,518,0,0.7872222222222223,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,501,0,0.577,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,502,0,0.7297777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,503,0,0.6466666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,504,0,0.8374444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,505,0,0.4833333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,506,0,0.6816666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,507,0,0.6673333333333333,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,508,0,0.7248888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,509,0,0.6764444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,510,0,0.6781111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,511,0,0.7114444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,512,0,0.6627777777777778,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,513,0,0.6866666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,514,0,0.5638888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,515,0,0.8527777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,516,0,0.7681111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,517,0,0.8168888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17),2.0,518,0,0.7872222222222223,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,501,0,0.4936666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,502,0,0.6464444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,503,0,0.5633333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,504,0,0.7541111111111112,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,505,0,0.4,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,506,0,0.5983333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,507,0,0.5840000000000001,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,508,0,0.6415555555555555,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,509,0,0.593111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,510,0,0.5947777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,511,0,0.6281111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,512,0,0.5794444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,513,0,0.6033333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,514,0,0.4805555555555555,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,515,0,0.7694444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,516,0,0.6847777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,517,0,0.7335555555555556,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,0.0,518,0,0.7038888888888889,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,501,0,0.4936666666666666,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,502,0,0.6464444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,503,0,0.5633333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,504,0,0.7541111111111112,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,505,0,0.4,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,506,0,0.5983333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,507,0,0.5840000000000001,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,508,0,0.6415555555555555,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,509,0,0.593111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,510,0,0.5947777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,511,0,0.6281111111111111,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,512,0,0.5794444444444444,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,513,0,0.6033333333333334,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,514,0,0.4805555555555555,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,515,0,0.7694444444444445,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,516,0,0.6847777777777777,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,517,0,0.7335555555555556,0.0,True
+"Falls, magnitude detector: older adults (HAR70+)",young volunteers (17) + personal ADL margin,2.0,518,0,0.7038888888888889,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,101,0,0.5047777777777778,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,102,0,0.3402222222222222,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,103,0,0.4153333333333333,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,104,0,0.4607777777777778,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,105,0,0.4692222222222222,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,106,0,0.4208888888888888,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,107,0,0.6104444444444445,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,108,0,0.6091111111111112,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,109,1,0.5693333333333334,1.756440281030445,False
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,110,0,0.527888888888889,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,203,0,0.4334444444444444,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,204,0,0.4469999999999999,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,205,0,0.4104444444444444,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,206,0,0.4264444444444444,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,207,0,0.3936666666666667,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,208,0,0.5103333333333333,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",0.0,209,0,0.5983333333333334,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,101,0,0.5047777777777778,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,102,0,0.3402222222222222,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,103,0,0.4153333333333333,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,104,0,0.4607777777777778,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,105,0,0.4692222222222222,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,106,0,0.4208888888888888,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,107,0,0.6104444444444445,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,108,0,0.6091111111111112,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,109,1,0.5693333333333334,1.756440281030445,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,110,0,0.527888888888889,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,203,2,0.4334444444444444,4.614201486798256,False
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,204,0,0.4469999999999999,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,205,0,0.4104444444444444,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,206,0,0.4264444444444444,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,207,0,0.3936666666666667,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,208,0,0.5103333333333333,0.0,True
+"Falls, magnitude detector: young volunteers (falls dataset)","young volunteers, leave-one-out (16)",2.0,209,0,0.5983333333333334,0.0,True

@@ -1,0 +1,23 @@
+{
+ "fog": {
+  "windows": 17720,
+  "batch_ms_per_window": 0.860405838544021,
+  "single_window_ms_kit": 3.408487745000457,
+  "n_features_all": 276,
+  "n_features_kit": 276
+ },
+ "har70": {
+  "windows": 18051,
+  "batch_ms_per_window": 0.5551153432496725,
+  "single_window_ms_kit": 2.1756121549992713,
+  "n_features_all": 184,
+  "n_features_kit": 184
+ },
+ "falls": {
+  "windows": 3300,
+  "batch_ms_per_window": 1.4236249678788226,
+  "single_window_ms_kit": 3.566788279999855,
+  "n_features_all": 1104,
+  "n_features_kit": 368
+ }
+}

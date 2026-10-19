@@ -1,4 +1,15 @@
+"""
+STEP 05 - Cardiac rhythm service: single-lead ECG patch (MIT-BIH Arrhythmia Database, PhysioNet).
 
+48 half-hour two-lead Holter recordings (47 people, 360 Hz). We use the modified limb lead II (MLII) only,
+as recorded by a single-lead wearable patch. Beats are grouped into the AAMI EC57 classes
+N (normal / bundle-branch block / escape), S (supraventricular ectopic), V (ventricular ectopic), F (fusion), Q.
+The four paced records (102, 104, 107, 217) are excluded as recommended by AAMI.
+Inter-patient protocol of de Chazal et al. (2004): DS1 (22 records) for development, DS2 (22 records) for testing.
+
+Output PROCESSED_PATH/ecg_beats.npz : per beat RR features, morphology descriptors, 180-Hz beat segment,
+AAMI label, record, time [s] and the rhythm annotation in force.
+"""
 import os
 import zipfile
 

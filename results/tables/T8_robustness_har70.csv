@@ -1,0 +1,10 @@
+analysis,setting,score,metric
+(a) sensor placement,lower back,0.6506383852584171,macro-F1
+(a) sensor placement,thigh,0.5991228796862065,macro-F1
+(a) sensor placement,back+thigh (CARES kit),0.701013941628089,macro-F1
+(c) sampling rate,25 Hz (from 50 Hz),0.7194271362933616,macro-F1
+(c) sampling rate,12.5 Hz (from 50 Hz),0.7349721684307124,macro-F1
+(c) sampling rate,50 Hz (native),0.701013941628089,macro-F1
+(d) sensor noise (test only),noise SD = 10% of signal SD,0.680521246772806,macro-F1
+(d) sensor noise (test only),noise SD = 25% of signal SD,0.46510485221496006,macro-F1
+(d) sensor noise (test only),noise SD = 50% of signal SD,0.41509516588279677,macro-F1

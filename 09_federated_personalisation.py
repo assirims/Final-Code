@@ -1,4 +1,20 @@
+"""
+STEP 09 - Privacy-preserving collaboration across homes and on-device personalisation (wearable services).
 
+Usage:  python 09_federated_personalisation.py fog|har70|falls
+
+Every person's home gateway is one federated client; raw signals and features never leave the home.
+Leave-one-person-out: the held-out person is a NEW user who joins after the federation was trained.
+Compared (all evaluated on the same windows of the new user, i.e. after the longest onboarding period):
+  Local only          - MLP trained only on the new user's own onboarding minutes (no collaboration)
+  Central MLP         - all training people's data pooled on a server (privacy-violating reference)
+  FedAvg / FedProx    - federated MLP, 1 local epoch per round, size-weighted aggregation
+  FedAvg (50% online) - only half of the gateways participate in each round (intermittent connectivity)
+  FedAvg + FT(m)      - federated model fine-tuned on the new user's first m minutes of labelled data
+  CARES + PC(m)       - the dual-view CARES model with personal recalibration (Platt) on the m onboarding minutes
+For falls only ADL minutes can be used for onboarding (nobody can be asked to fall), so personalisation of the
+fall service is handled by the alarm manager (script 10) instead.
+"""
 import os
 import pickle
 import sys

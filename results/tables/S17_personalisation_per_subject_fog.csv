@@ -1,0 +1,167 @@
+method,set,subject,score,n_eval
+FedAvg MLP,P,1,0.9626841365015916,1591
+FedAvg MLP,P,2,0.9508859357696566,1109
+FedAvg MLP,P,3,0.9423010166129432,1698
+FedAvg MLP,P,4,,1764
+FedAvg MLP,P,5,0.8861893557794275,1772
+FedAvg MLP,P,6,0.8715356334841629,1675
+FedAvg MLP,P,7,0.9451646596215286,1304
+FedAvg MLP,P,8,0.823536408402122,458
+FedAvg MLP,P,9,0.969601534199872,1425
+FedAvg MLP,P,10,,1924
+FT all layers (1 min),P,1,0.9341105929380413,1591
+FT all layers (1 min),P,2,0.9622844486631862,1109
+FT all layers (1 min),P,3,0.766278204810315,1698
+FT all layers (1 min),P,4,,1764
+FT all layers (1 min),P,5,0.8765094777306468,1772
+FT all layers (1 min),P,6,0.6857122656755009,1675
+FT all layers (1 min),P,7,0.9412171295158516,1304
+FT all layers (1 min),P,8,0.7112781597164403,458
+FT all layers (1 min),P,9,0.8991391434050715,1425
+FT all layers (1 min),P,10,,1924
+FT last layer (1 min),P,1,0.9611962395440078,1591
+FT last layer (1 min),P,2,0.9521357380161366,1109
+FT last layer (1 min),P,3,0.9418763947433673,1698
+FT last layer (1 min),P,4,,1764
+FT last layer (1 min),P,5,0.8869498939554613,1772
+FT last layer (1 min),P,6,0.8685914269553976,1675
+FT last layer (1 min),P,7,0.9434750552961415,1304
+FT last layer (1 min),P,8,0.8256060137497919,458
+FT last layer (1 min),P,9,0.9683528659705944,1425
+FT last layer (1 min),P,10,,1924
+FT all + statistics replay (1 min),P,1,0.9555888666814716,1591
+FT all + statistics replay (1 min),P,2,0.9665717449770606,1109
+FT all + statistics replay (1 min),P,3,0.9450068187453509,1698
+FT all + statistics replay (1 min),P,4,,1764
+FT all + statistics replay (1 min),P,5,0.864097295864263,1772
+FT all + statistics replay (1 min),P,6,0.7081599466709761,1675
+FT all + statistics replay (1 min),P,7,0.9397272057016466,1304
+FT all + statistics replay (1 min),P,8,0.7379213549967887,458
+FT all + statistics replay (1 min),P,9,0.959863626678031,1425
+FT all + statistics replay (1 min),P,10,,1924
+FT last + statistics replay (1 min),P,1,0.9571915019616553,1591
+FT last + statistics replay (1 min),P,2,0.9475083056478405,1109
+FT last + statistics replay (1 min),P,3,0.9480907513017605,1698
+FT last + statistics replay (1 min),P,4,,1764
+FT last + statistics replay (1 min),P,5,0.885432131495228,1772
+FT last + statistics replay (1 min),P,6,0.8566580478345185,1675
+FT last + statistics replay (1 min),P,7,0.9471307446547064,1304
+FT last + statistics replay (1 min),P,8,0.831553155553441,458
+FT last + statistics replay (1 min),P,9,0.9697464308544642,1425
+FT last + statistics replay (1 min),P,10,,1924
+FT all + real-data replay (1 min),P,1,0.9526907987267748,1591
+FT all + real-data replay (1 min),P,2,0.9418525549754786,1109
+FT all + real-data replay (1 min),P,3,0.9215007438631291,1698
+FT all + real-data replay (1 min),P,4,,1764
+FT all + real-data replay (1 min),P,5,0.8804447242841994,1772
+FT all + real-data replay (1 min),P,6,0.868646978021978,1675
+FT all + real-data replay (1 min),P,7,0.9425227328581962,1304
+FT all + real-data replay (1 min),P,8,0.8393082284653995,458
+FT all + real-data replay (1 min),P,9,0.9679480076709994,1425
+FT all + real-data replay (1 min),P,10,,1924
+FT all layers (5 min),P,1,0.8886668147161152,1591
+FT all layers (5 min),P,2,0.9624110109159942,1109
+FT all layers (5 min),P,3,0.9096051326555913,1698
+FT all layers (5 min),P,4,,1764
+FT all layers (5 min),P,5,0.8791506495227996,1772
+FT all layers (5 min),P,6,0.8575216144149967,1675
+FT all layers (5 min),P,7,0.8466914475301057,1304
+FT all layers (5 min),P,8,0.830791921402574,458
+FT all layers (5 min),P,9,0.9683443426379714,1425
+FT all layers (5 min),P,10,,1924
+FT last layer (5 min),P,1,0.9550595899030276,1591
+FT last layer (5 min),P,2,0.9339028634709698,1109
+FT last layer (5 min),P,3,0.9389164393751549,1698
+FT last layer (5 min),P,4,,1764
+FT last layer (5 min),P,5,0.888383152173913,1772
+FT last layer (5 min),P,6,0.8670157967032968,1675
+FT last layer (5 min),P,7,0.9353188744163186,1304
+FT last layer (5 min),P,8,0.8302447843566382,458
+FT last layer (5 min),P,9,0.9735819305348391,1425
+FT last layer (5 min),P,10,,1924
+FT all + statistics replay (5 min),P,1,0.9494226071507883,1591
+FT all + statistics replay (5 min),P,2,0.9680746717291568,1109
+FT all + statistics replay (5 min),P,3,0.9311213736672453,1698
+FT all + statistics replay (5 min),P,4,,1764
+FT all + statistics replay (5 min),P,5,0.8682197773064687,1772
+FT all + statistics replay (5 min),P,6,0.778583548804137,1675
+FT all + statistics replay (5 min),P,7,0.8538338658146966,1304
+FT all + statistics replay (5 min),P,8,0.8471108785117873,458
+FT all + statistics replay (5 min),P,9,0.9643895163008737,1425
+FT all + statistics replay (5 min),P,10,,1924
+FT last + statistics replay (5 min),P,1,0.9557924346731809,1591
+FT last + statistics replay (5 min),P,2,0.9424458155355167,1109
+FT last + statistics replay (5 min),P,3,0.9356000495908753,1698
+FT last + statistics replay (5 min),P,4,,1764
+FT last + statistics replay (5 min),P,5,0.8827611346765641,1772
+FT last + statistics replay (5 min),P,6,0.8653694650937297,1675
+FT last + statistics replay (5 min),P,7,0.9474225854018187,1304
+FT last + statistics replay (5 min),P,8,0.8420677022622927,458
+FT last + statistics replay (5 min),P,9,0.971651395695717,1425
+FT last + statistics replay (5 min),P,10,,1924
+FT all + real-data replay (5 min),P,1,0.9469464801243616,1591
+FT all + real-data replay (5 min),P,2,0.9681854137003638,1109
+FT all + real-data replay (5 min),P,3,0.9275105380609969,1698
+FT all + real-data replay (5 min),P,4,,1764
+FT all + real-data replay (5 min),P,5,0.8678685047720042,1772
+FT all + real-data replay (5 min),P,6,0.8614758403361344,1675
+FT all + real-data replay (5 min),P,7,0.882080978127304,1304
+FT all + real-data replay (5 min),P,8,0.8507981064300497,458
+FT all + real-data replay (5 min),P,9,0.9662944811421266,1425
+FT all + real-data replay (5 min),P,10,,1924
+FedAvg MLP,Pg,1,0.9715899122807018,1291
+FedAvg MLP,Pg,2,0.9457177547398897,959
+FedAvg MLP,Pg,3,0.9423010166129432,1698
+FedAvg MLP,Pg,5,0.8874235006119952,1746
+FedAvg MLP,Pg,6,0.8816267247639797,1383
+FedAvg MLP,Pg,7,0.9450197238658777,1300
+FedAvg MLP,Pg,8,0.8079312865497076,381
+FedAvg MLP,Pg,9,0.9733033883409824,1288
+"FT all layers, onboarding with a freeze (1 min)",Pg,1,0.955109649122807,1291
+"FT all layers, onboarding with a freeze (1 min)",Pg,2,0.9645091995890538,959
+"FT all layers, onboarding with a freeze (1 min)",Pg,3,0.766278204810315,1698
+"FT all layers, onboarding with a freeze (1 min)",Pg,5,0.8991364069087447,1746
+"FT all layers, onboarding with a freeze (1 min)",Pg,6,0.44008714596949894,1383
+"FT all layers, onboarding with a freeze (1 min)",Pg,7,0.9439410749506902,1300
+"FT all layers, onboarding with a freeze (1 min)",Pg,8,0.7089912280701754,381
+"FT all layers, onboarding with a freeze (1 min)",Pg,9,0.9732513100934154,1288
+"FT last layer, onboarding with a freeze (1 min)",Pg,1,0.9711951754385966,1291
+"FT last layer, onboarding with a freeze (1 min)",Pg,2,0.9440552909311666,959
+"FT last layer, onboarding with a freeze (1 min)",Pg,3,0.9418763947433673,1698
+"FT last layer, onboarding with a freeze (1 min)",Pg,5,0.8880405956752346,1746
+"FT last layer, onboarding with a freeze (1 min)",Pg,6,0.8772694262890341,1383
+"FT last layer, onboarding with a freeze (1 min)",Pg,7,0.9435712524654831,1300
+"FT last layer, onboarding with a freeze (1 min)",Pg,8,0.8020102339181286,381
+"FT last layer, onboarding with a freeze (1 min)",Pg,9,0.974885265110829,1288
+"FT all layers, routine onboarding (1 min)",Pg,1,0.9475877192982456,1291
+"FT all layers, routine onboarding (1 min)",Pg,2,0.9570281124497992,959
+"FT all layers, routine onboarding (1 min)",Pg,3,0.766278204810315,1698
+"FT all layers, routine onboarding (1 min)",Pg,5,0.8776791785665715,1746
+"FT all layers, routine onboarding (1 min)",Pg,6,0.7943597191963205,1383
+"FT all layers, routine onboarding (1 min)",Pg,7,0.9410287228796843,1300
+"FT all layers, routine onboarding (1 min)",Pg,8,0.6932748538011696,381
+"FT all layers, routine onboarding (1 min)",Pg,9,0.8839631546398463,1288
+"FT all layers, onboarding with a freeze (5 min)",Pg,1,0.9704166666666667,1291
+"FT all layers, onboarding with a freeze (5 min)",Pg,2,0.9598019986924442,959
+"FT all layers, onboarding with a freeze (5 min)",Pg,3,0.9096051326555913,1698
+"FT all layers, onboarding with a freeze (5 min)",Pg,5,0.8793400652794778,1746
+"FT all layers, onboarding with a freeze (5 min)",Pg,6,0.9040183974824497,1383
+"FT all layers, onboarding with a freeze (5 min)",Pg,7,0.8545210798816567,1300
+"FT all layers, onboarding with a freeze (5 min)",Pg,8,0.7764619883040935,381
+"FT all layers, onboarding with a freeze (5 min)",Pg,9,0.9640269504931158,1288
+"FT last layer, onboarding with a freeze (5 min)",Pg,1,0.9687828947368421,1291
+"FT last layer, onboarding with a freeze (5 min)",Pg,2,0.929578780237228,959
+"FT last layer, onboarding with a freeze (5 min)",Pg,3,0.9389164393751549,1698
+"FT last layer, onboarding with a freeze (5 min)",Pg,5,0.8904120767033864,1746
+"FT last layer, onboarding with a freeze (5 min)",Pg,6,0.8483418058581457,1383
+"FT last layer, onboarding with a freeze (5 min)",Pg,7,0.935882026627219,1300
+"FT last layer, onboarding with a freeze (5 min)",Pg,8,0.793640350877193,381
+"FT last layer, onboarding with a freeze (5 min)",Pg,9,0.9773850209940436,1288
+"FT all layers, routine onboarding (5 min)",Pg,1,0.9024451754385965,1291
+"FT all layers, routine onboarding (5 min)",Pg,2,0.9597179415335761,959
+"FT all layers, routine onboarding (5 min)",Pg,3,0.9096051326555913,1698
+"FT all layers, routine onboarding (5 min)",Pg,5,0.8802886576907385,1746
+"FT all layers, routine onboarding (5 min)",Pg,6,0.8534253207455822,1383
+"FT all layers, routine onboarding (5 min)",Pg,7,0.8464928500986192,1300
+"FT all layers, routine onboarding (5 min)",Pg,8,0.8119517543859649,381
+"FT all layers, routine onboarding (5 min)",Pg,9,0.963017934446506,1288
